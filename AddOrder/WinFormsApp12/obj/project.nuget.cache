@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qNZCZ2HwjMKdwRsr2zvFA0YdHu79wrbYvedakOEsbdWaIFaYNfAFSfAqIePmV1Gi6Haubaa+JLTltPxEjfddyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei Gumiran\\source\\repos\\WinFormsApp12\\WinFormsApp12\\WinFormsApp12.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei Gumiran\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\Andrei Gumiran\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Andrei Gumiran\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
