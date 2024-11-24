@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thinkpad\\Source\\Repos\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj": {}
+    "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thinkpad\\Source\\Repos\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj": {
+    "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thinkpad\\Source\\Repos\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj",
         "projectName": "WinFormsApp12",
-        "projectPath": "C:\\Users\\thinkpad\\Source\\Repos\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj",
-        "packagesPath": "C:\\Users\\thinkpad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thinkpad\\Source\\Repos\\OOP-Project\\AddOrder\\WinFormsApp12\\obj\\",
+        "projectPath": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\WinFormsApp12.csproj",
+        "packagesPath": "C:\\Users\\Andrei Gumiran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrei Gumiran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,24 +56,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -87,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
