@@ -5,11 +5,14 @@ namespace WinFormsApp12
         public Form1()
         {
             InitializeComponent();
+            Form2 Form2 = new Form2();
+            Form2.Show();
+
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void guna2PictureBox1_Click_1(object sender, EventArgs e)
