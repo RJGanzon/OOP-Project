@@ -156,7 +156,7 @@
             btn16ozCup.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btn16ozCup.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btn16ozCup.FillColor = Color.FromArgb(251, 241, 240);
-            btn16ozCup.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btn16ozCup.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn16ozCup.ForeColor = Color.DimGray;
             btn16ozCup.Location = new Point(276, 81);
             btn16ozCup.Margin = new Padding(4);
@@ -165,6 +165,7 @@
             btn16ozCup.Size = new Size(114, 55);
             btn16ozCup.TabIndex = 4;
             btn16ozCup.Text = "16 oz";
+            btn16ozCup.Click += btn16ozCup_Click_1;
             // 
             // btn12ozCup
             // 
@@ -174,7 +175,7 @@
             btn12ozCup.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btn12ozCup.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btn12ozCup.FillColor = Color.FromArgb(251, 241, 240);
-            btn12ozCup.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btn12ozCup.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn12ozCup.ForeColor = Color.DimGray;
             btn12ozCup.Location = new Point(155, 81);
             btn12ozCup.Margin = new Padding(4);
@@ -183,6 +184,7 @@
             btn12ozCup.Size = new Size(114, 55);
             btn12ozCup.TabIndex = 4;
             btn12ozCup.Text = "12 oz";
+            btn12ozCup.Click += btn12ozCup_Click_1;
             // 
             // btn8ozCup
             // 
@@ -193,7 +195,7 @@
             btn8ozCup.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btn8ozCup.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btn8ozCup.FillColor = Color.FromArgb(251, 241, 240);
-            btn8ozCup.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btn8ozCup.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btn8ozCup.ForeColor = Color.DimGray;
             btn8ozCup.Location = new Point(34, 81);
             btn8ozCup.Margin = new Padding(4);
@@ -202,6 +204,7 @@
             btn8ozCup.Size = new Size(114, 55);
             btn8ozCup.TabIndex = 3;
             btn8ozCup.Text = "8 oz";
+            btn8ozCup.Click += btn8ozCup_Click_1;
             // 
             // guna2PictureBox2
             // 
@@ -217,7 +220,6 @@
             guna2PictureBox2.TabIndex = 2;
             guna2PictureBox2.TabStop = false;
             guna2PictureBox2.UseTransparentBackground = true;
-            guna2PictureBox2.Click += guna2PictureBox2_Click;
             // 
             // guna2PictureBox6
             // 
@@ -232,7 +234,6 @@
             guna2PictureBox6.Size = new Size(492, 731);
             guna2PictureBox6.TabIndex = 7;
             guna2PictureBox6.TabStop = false;
-            guna2PictureBox6.Click += guna2PictureBox6_Click;
             // 
             // guna2Elipse1
             // 
@@ -254,7 +255,6 @@
             guna2PictureBox1.TabIndex = 1;
             guna2PictureBox1.TabStop = false;
             guna2PictureBox1.UseTransparentBackground = true;
-            guna2PictureBox1.Click += guna2PictureBox1_Click_1;
             // 
             // guna2Panel2
             // 
@@ -274,7 +274,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
             label1.ForeColor = SystemColors.ControlDarkDark;
             label1.Location = new Point(124, 51);
             label1.Margin = new Padding(4, 0, 4, 0);
@@ -287,7 +287,7 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
             label2.ForeColor = SystemColors.ControlDarkDark;
             label2.Location = new Point(150, 282);
             label2.Margin = new Padding(4, 0, 4, 0);
@@ -331,7 +331,6 @@
             guna2Panel4.ShadowDecoration.Enabled = true;
             guna2Panel4.Size = new Size(438, 570);
             guna2Panel4.TabIndex = 7;
-            guna2Panel4.Paint += guna2Panel4_Paint;
             // 
             // btnAddToCart
             // 
@@ -342,7 +341,7 @@
             btnAddToCart.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnAddToCart.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnAddToCart.FillColor = Color.DarkSalmon;
-            btnAddToCart.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAddToCart.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
             btnAddToCart.ForeColor = Color.White;
             btnAddToCart.Location = new Point(34, 466);
             btnAddToCart.Margin = new Padding(4);
@@ -351,6 +350,7 @@
             btnAddToCart.Size = new Size(356, 70);
             btnAddToCart.TabIndex = 18;
             btnAddToCart.Text = "Add to Cart";
+            btnAddToCart.Click += btnAddToCart_Click_1;
             // 
             // btnToppingsMango
             // 

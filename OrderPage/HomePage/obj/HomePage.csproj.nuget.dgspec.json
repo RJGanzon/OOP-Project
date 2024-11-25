@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei Gumiran\\source\\repos\\OrderPage\\HomePage\\HomePage.csproj": {}
+    "C:\\Users\\thinkpad\\source\\repos\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei Gumiran\\source\\repos\\OrderPage\\HomePage\\HomePage.csproj": {
+    "C:\\Users\\thinkpad\\source\\repos\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei Gumiran\\source\\repos\\OrderPage\\HomePage\\HomePage.csproj",
+        "projectUniqueName": "C:\\Users\\thinkpad\\source\\repos\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj",
         "projectName": "HomePage",
-        "projectPath": "C:\\Users\\Andrei Gumiran\\source\\repos\\OrderPage\\HomePage\\HomePage.csproj",
-        "packagesPath": "C:\\Users\\Andrei Gumiran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei Gumiran\\source\\repos\\OrderPage\\HomePage\\obj\\",
+        "projectPath": "C:\\Users\\thinkpad\\source\\repos\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj",
+        "packagesPath": "C:\\Users\\thinkpad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thinkpad\\Source\\Repos\\OOP-Project\\OrderPage\\HomePage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andrei Gumiran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,6 +61,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -64,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

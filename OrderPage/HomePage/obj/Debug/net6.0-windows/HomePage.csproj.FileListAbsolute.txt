@@ -20,3 +20,26 @@ C:\Users\Andrei Gumiran\source\repos\HomePage\HomePage\obj\Debug\net6.0-windows\
 C:\Users\Andrei Gumiran\source\repos\HomePage\HomePage\obj\Debug\net6.0-windows\HomePage.genruntimeconfig.cache
 C:\Users\Andrei Gumiran\source\repos\HomePage\HomePage\obj\Debug\net6.0-windows\ref\HomePage.dll
 C:\Users\Andrei Gumiran\source\repos\HomePage\HomePage\obj\Debug\net6.0-windows\HomePage.Properties.Resources.resources
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\HomePage.exe
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\HomePage.deps.json
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\HomePage.runtimeconfig.json
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\HomePage.dll
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\HomePage.pdb
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.csproj.AssemblyReference.cache
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.Form1.resources
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.Properties.Resources.resources
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.csproj.GenerateResource.cache
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.AssemblyInfo.cs
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.sourcelink.json
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.csproj.Up2Date
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.dll
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\refint\HomePage.dll
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.pdb
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\HomePage.genruntimeconfig.cache
+C:\Users\thinkpad\Source\Repos\OOP-Project\OrderPage\HomePage\obj\Debug\net6.0-windows\ref\HomePage.dll

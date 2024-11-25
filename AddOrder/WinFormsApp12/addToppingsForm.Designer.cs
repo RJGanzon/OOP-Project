@@ -30,123 +30,129 @@
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addToppingsForm));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.SuspendLayout();
+            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            btnDone = new Guna.UI2.WinForms.Guna2Button();
+            label1 = new Label();
+            txtInputGrams = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(232)))), ((int)(((byte)(229)))));
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2Panel1.CustomizableEdges = customizableEdges7;
-            this.guna2Panel1.Location = new System.Drawing.Point(12, 12);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.guna2Panel1.Size = new System.Drawing.Size(708, 329);
-            this.guna2Panel1.TabIndex = 0;
+            guna2Panel1.BackColor = Color.FromArgb(205, 232, 229);
+            guna2Panel1.Controls.Add(btnDone);
+            guna2Panel1.Controls.Add(label1);
+            guna2Panel1.Controls.Add(txtInputGrams);
+            guna2Panel1.Controls.Add(guna2PictureBox1);
+            guna2Panel1.CustomizableEdges = customizableEdges7;
+            guna2Panel1.Location = new Point(15, 15);
+            guna2Panel1.Margin = new Padding(4);
+            guna2Panel1.Name = "guna2Panel1";
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Panel1.Size = new Size(885, 411);
+            guna2Panel1.TabIndex = 0;
             // 
-            // guna2TextBox1
+            // btnDone
             // 
-            this.guna2TextBox1.CustomizableEdges = customizableEdges3;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(218, 123);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.guna2TextBox1.Size = new System.Drawing.Size(300, 50);
-            this.guna2TextBox1.TabIndex = 0;
+            btnDone.CustomizableEdges = customizableEdges1;
+            btnDone.DisabledState.BorderColor = Color.DarkGray;
+            btnDone.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDone.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDone.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDone.FillColor = Color.FromArgb(122, 178, 178);
+            btnDone.Font = new Font("Segoe UI", 9F);
+            btnDone.ForeColor = Color.White;
+            btnDone.Location = new Point(298, 271);
+            btnDone.Margin = new Padding(4);
+            btnDone.Name = "btnDone";
+            btnDone.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnDone.Size = new Size(316, 70);
+            btnDone.TabIndex = 2;
+            btnDone.Text = "Done";
+            btnDone.Click += btnDone_Click_1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(206, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(332, 38);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Input Amount of Grams";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold);
+            label1.Location = new Point(258, 102);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(388, 45);
+            label1.TabIndex = 1;
+            label1.Text = "Input Amount of Grams";
+            label1.Click += label1_Click;
             // 
-            // guna2Button1
+            // txtInputGrams
             // 
-            this.guna2Button1.CustomizableEdges = customizableEdges1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(178)))), ((int)(((byte)(178)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(238, 217);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.guna2Button1.Size = new System.Drawing.Size(253, 56);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "Done";
+            txtInputGrams.CustomizableEdges = customizableEdges3;
+            txtInputGrams.DefaultText = "";
+            txtInputGrams.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtInputGrams.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtInputGrams.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtInputGrams.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtInputGrams.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtInputGrams.Font = new Font("Segoe UI", 9F);
+            txtInputGrams.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtInputGrams.Location = new Point(272, 154);
+            txtInputGrams.Margin = new Padding(5, 6, 5, 6);
+            txtInputGrams.Name = "txtInputGrams";
+            txtInputGrams.PasswordChar = '\0';
+            txtInputGrams.PlaceholderText = "";
+            txtInputGrams.SelectedText = "";
+            txtInputGrams.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            txtInputGrams.Size = new Size(375, 62);
+            txtInputGrams.TabIndex = 0;
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.BackgroundImage")));
-            this.guna2PictureBox1.CustomizableEdges = customizableEdges5;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-264, 20);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1051, 487);
-            this.guna2PictureBox1.TabIndex = 3;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+            guna2PictureBox1.BackColor = Color.Transparent;
+            guna2PictureBox1.BackgroundImage = (Image)resources.GetObject("guna2PictureBox1.BackgroundImage");
+            guna2PictureBox1.CustomizableEdges = customizableEdges5;
+            guna2PictureBox1.FillColor = Color.Transparent;
+            guna2PictureBox1.ImageRotate = 0F;
+            guna2PictureBox1.Location = new Point(-330, 25);
+            guna2PictureBox1.Margin = new Padding(4);
+            guna2PictureBox1.Name = "guna2PictureBox1";
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2PictureBox1.Size = new Size(1314, 609);
+            guna2PictureBox1.TabIndex = 3;
+            guna2PictureBox1.TabStop = false;
+            guna2PictureBox1.UseTransparentBackground = true;
+            guna2PictureBox1.Click += guna2PictureBox1_Click;
             // 
             // addToppingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(134)))), ((int)(((byte)(156)))));
-            this.ClientSize = new System.Drawing.Size(732, 353);
-            this.Controls.Add(this.guna2Panel1);
-            this.Name = "addToppingsForm";
-            this.Text = "addToppingsForm";
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(77, 134, 156);
+            ClientSize = new Size(915, 441);
+            Controls.Add(guna2Panel1);
+            Margin = new Padding(4);
+            Name = "addToppingsForm";
+            Text = "addToppingsForm";
+            guna2Panel1.ResumeLayout(false);
+            guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnDone;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtInputGrams;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
