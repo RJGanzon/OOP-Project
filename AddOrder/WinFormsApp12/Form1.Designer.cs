@@ -481,7 +481,7 @@
             guna2ImageButton2.ImageOffset = new Point(0, 0);
             guna2ImageButton2.ImageRotate = 0F;
             guna2ImageButton2.ImageSize = new Size(50, 50);
-            guna2ImageButton2.Location = new Point(58, 3);
+            guna2ImageButton2.Location = new Point(251, 3);
             guna2ImageButton2.Name = "guna2ImageButton2";
             guna2ImageButton2.PressedState.Image = (Image)resources.GetObject("resource.Image1");
             guna2ImageButton2.PressedState.ImageSize = new Size(50, 50);
@@ -497,7 +497,7 @@
             guna2ImageButton4.ImageOffset = new Point(0, 0);
             guna2ImageButton4.ImageRotate = 0F;
             guna2ImageButton4.ImageSize = new Size(50, 50);
-            guna2ImageButton4.Location = new Point(251, 3);
+            guna2ImageButton4.Location = new Point(58, 3);
             guna2ImageButton4.Name = "guna2ImageButton4";
             guna2ImageButton4.PressedState.Image = (Image)resources.GetObject("resource.Image2");
             guna2ImageButton4.PressedState.ImageSize = new Size(50, 50);
@@ -513,13 +513,14 @@
             guna2ImageButton1.ImageOffset = new Point(0, 0);
             guna2ImageButton1.ImageRotate = 0F;
             guna2ImageButton1.ImageSize = new Size(50, 50);
-            guna2ImageButton1.Location = new Point(166, 3);
+            guna2ImageButton1.Location = new Point(171, 3);
             guna2ImageButton1.Name = "guna2ImageButton1";
             guna2ImageButton1.PressedState.Image = (Image)resources.GetObject("resource.Image3");
             guna2ImageButton1.PressedState.ImageSize = new Size(50, 50);
             guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges36;
             guna2ImageButton1.Size = new Size(50, 50);
             guna2ImageButton1.TabIndex = 1;
+            guna2ImageButton1.Click += guna2ImageButton1_Click;
             // 
             // Form1
             // 

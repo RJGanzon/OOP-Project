@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,6 +95,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -117,8 +121,7 @@
               "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs [Design]",
               "RelativeToolTip": "WinFormsApp12\\OrderPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T09:36:07.631Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-26T09:36:07.631Z"
             },
             {
               "$type": "Document",
@@ -130,8 +133,7 @@
               "RelativeToolTip": "WinFormsApp12\\OrderPage.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T09:40:56.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T09:40:56.365Z"
             },
             {
               "$type": "Document",
@@ -156,8 +158,7 @@
               "RelativeToolTip": "WinFormsApp12\\WinFormsApp12.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-25T16:43:38.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T16:43:38.245Z"
             },
             {
               "$type": "Document",
@@ -168,8 +169,7 @@
               "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Form1.cs [Design]",
               "RelativeToolTip": "WinFormsApp12\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:28:33.054Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-25T14:28:33.054Z"
             },
             {
               "$type": "Document",
@@ -194,8 +194,7 @@
               "RelativeToolTip": "WinFormsApp12\\HomePage.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAD4vxUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T10:24:43.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T10:24:43.491Z"
             },
             {
               "$type": "Document",
@@ -206,8 +205,7 @@
               "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\addToppingsForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp12\\addToppingsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:55:05.515Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-25T13:55:05.515Z"
             },
             {
               "$type": "Document",
@@ -266,10 +264,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T13:12:57.35Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

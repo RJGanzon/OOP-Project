@@ -42,13 +42,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            label1 = new Label();
             guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            label1 = new Label();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             label2 = new Label();
             label3 = new Label();
@@ -59,10 +59,10 @@
             guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2ImageButton11 = new Guna.UI2.WinForms.Guna2ImageButton();
+            guna2ImageButton10 = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2ImageButton9 = new Guna.UI2.WinForms.Guna2ImageButton();
-            guna2ImageButton10 = new Guna.UI2.WinForms.Guna2ImageButton();
-            guna2ImageButton11 = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2Panel1.SuspendLayout();
             guna2Panel3.SuspendLayout();
             SuspendLayout();
@@ -79,17 +79,6 @@
             guna2Panel1.Size = new Size(350, 81);
             guna2Panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Cake Mania", 23.9999981F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 20);
-            label1.Name = "label1";
-            label1.Size = new Size(178, 45);
-            label1.TabIndex = 0;
-            label1.Text = "Greetings!";
-            label1.Click += label1_Click;
-            // 
             // guna2ImageButton1
             // 
             guna2ImageButton1.CheckedState.ImageSize = new Size(64, 64);
@@ -105,6 +94,17 @@
             guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges1;
             guna2ImageButton1.Size = new Size(50, 50);
             guna2ImageButton1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cake Mania", 23.9999981F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(178, 45);
+            label1.TabIndex = 0;
+            label1.Text = "Greetings!";
+            label1.Click += label1_Click;
             // 
             // guna2Panel2
             // 
@@ -234,37 +234,21 @@
             guna2Panel3.Size = new Size(417, 90);
             guna2Panel3.TabIndex = 10;
             // 
-            // guna2ImageButton8
+            // guna2ImageButton11
             // 
-            guna2ImageButton8.CheckedState.ImageSize = new Size(64, 64);
-            guna2ImageButton8.HoverState.ImageSize = new Size(64, 64);
-            guna2ImageButton8.Image = (Image)resources.GetObject("guna2ImageButton8.Image");
-            guna2ImageButton8.ImageOffset = new Point(0, 0);
-            guna2ImageButton8.ImageRotate = 0F;
-            guna2ImageButton8.ImageSize = new Size(50, 50);
-            guna2ImageButton8.Location = new Point(40, 16);
-            guna2ImageButton8.Name = "guna2ImageButton8";
-            guna2ImageButton8.PressedState.Image = (Image)resources.GetObject("resource.Image4");
-            guna2ImageButton8.PressedState.ImageSize = new Size(50, 50);
-            guna2ImageButton8.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            guna2ImageButton8.Size = new Size(50, 50);
-            guna2ImageButton8.TabIndex = 11;
-            // 
-            // guna2ImageButton9
-            // 
-            guna2ImageButton9.CheckedState.ImageSize = new Size(64, 64);
-            guna2ImageButton9.HoverState.ImageSize = new Size(64, 64);
-            guna2ImageButton9.Image = (Image)resources.GetObject("guna2ImageButton9.Image");
-            guna2ImageButton9.ImageOffset = new Point(0, 0);
-            guna2ImageButton9.ImageRotate = 0F;
-            guna2ImageButton9.ImageSize = new Size(50, 50);
-            guna2ImageButton9.Location = new Point(152, 16);
-            guna2ImageButton9.Name = "guna2ImageButton9";
-            guna2ImageButton9.PressedState.Image = (Image)resources.GetObject("resource.Image3");
-            guna2ImageButton9.PressedState.ImageSize = new Size(50, 50);
-            guna2ImageButton9.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2ImageButton9.Size = new Size(50, 50);
-            guna2ImageButton9.TabIndex = 12;
+            guna2ImageButton11.CheckedState.ImageSize = new Size(64, 64);
+            guna2ImageButton11.HoverState.ImageSize = new Size(64, 64);
+            guna2ImageButton11.Image = (Image)resources.GetObject("guna2ImageButton11.Image");
+            guna2ImageButton11.ImageOffset = new Point(0, 0);
+            guna2ImageButton11.ImageRotate = 0F;
+            guna2ImageButton11.ImageSize = new Size(50, 50);
+            guna2ImageButton11.Location = new Point(340, 16);
+            guna2ImageButton11.Name = "guna2ImageButton11";
+            guna2ImageButton11.PressedState.Image = (Image)resources.GetObject("resource.Image1");
+            guna2ImageButton11.PressedState.ImageSize = new Size(50, 50);
+            guna2ImageButton11.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2ImageButton11.Size = new Size(50, 50);
+            guna2ImageButton11.TabIndex = 14;
             // 
             // guna2ImageButton10
             // 
@@ -282,21 +266,37 @@
             guna2ImageButton10.Size = new Size(50, 50);
             guna2ImageButton10.TabIndex = 13;
             // 
-            // guna2ImageButton11
+            // guna2ImageButton8
             // 
-            guna2ImageButton11.CheckedState.ImageSize = new Size(64, 64);
-            guna2ImageButton11.HoverState.ImageSize = new Size(64, 64);
-            guna2ImageButton11.Image = (Image)resources.GetObject("guna2ImageButton11.Image");
-            guna2ImageButton11.ImageOffset = new Point(0, 0);
-            guna2ImageButton11.ImageRotate = 0F;
-            guna2ImageButton11.ImageSize = new Size(50, 50);
-            guna2ImageButton11.Location = new Point(340, 16);
-            guna2ImageButton11.Name = "guna2ImageButton11";
-            guna2ImageButton11.PressedState.Image = (Image)resources.GetObject("resource.Image1");
-            guna2ImageButton11.PressedState.ImageSize = new Size(50, 50);
-            guna2ImageButton11.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2ImageButton11.Size = new Size(50, 50);
-            guna2ImageButton11.TabIndex = 14;
+            guna2ImageButton8.CheckedState.ImageSize = new Size(64, 64);
+            guna2ImageButton8.HoverState.ImageSize = new Size(64, 64);
+            guna2ImageButton8.Image = (Image)resources.GetObject("guna2ImageButton8.Image");
+            guna2ImageButton8.ImageOffset = new Point(0, 0);
+            guna2ImageButton8.ImageRotate = 0F;
+            guna2ImageButton8.ImageSize = new Size(50, 50);
+            guna2ImageButton8.Location = new Point(152, 16);
+            guna2ImageButton8.Name = "guna2ImageButton8";
+            guna2ImageButton8.PressedState.Image = (Image)resources.GetObject("resource.Image4");
+            guna2ImageButton8.PressedState.ImageSize = new Size(50, 50);
+            guna2ImageButton8.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            guna2ImageButton8.Size = new Size(50, 50);
+            guna2ImageButton8.TabIndex = 11;
+            // 
+            // guna2ImageButton9
+            // 
+            guna2ImageButton9.CheckedState.ImageSize = new Size(64, 64);
+            guna2ImageButton9.HoverState.ImageSize = new Size(64, 64);
+            guna2ImageButton9.Image = (Image)resources.GetObject("guna2ImageButton9.Image");
+            guna2ImageButton9.ImageOffset = new Point(0, 0);
+            guna2ImageButton9.ImageRotate = 0F;
+            guna2ImageButton9.ImageSize = new Size(50, 50);
+            guna2ImageButton9.Location = new Point(40, 16);
+            guna2ImageButton9.Name = "guna2ImageButton9";
+            guna2ImageButton9.PressedState.Image = (Image)resources.GetObject("resource.Image3");
+            guna2ImageButton9.PressedState.ImageSize = new Size(50, 50);
+            guna2ImageButton9.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            guna2ImageButton9.Size = new Size(50, 50);
+            guna2ImageButton9.TabIndex = 12;
             // 
             // HomePage
             // 
@@ -340,8 +340,8 @@
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton8;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton9;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton10;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton11;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton9;
     }
 }
