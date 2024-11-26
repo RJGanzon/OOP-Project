@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thinkpad\\source\\repos\\OOP-Project\\OrderPage\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\orderpage\\homepage\\homepage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|solutionrelative:homepage\\homepage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\orderpage\\homepage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|solutionrelative:homepage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\orderpage\\homepage\\homepage.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|solutionrelative:homepage\\homepage.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\orderpage\\homepage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165CE8D8-6FA4-498C-83AC-D55D0F3AAE0B}|HomePage\\HomePage.csproj|solutionrelative:homepage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +39,60 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj",
+              "RelativeDocumentMoniker": "HomePage\\HomePage.csproj",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj",
+              "RelativeToolTip": "HomePage\\HomePage.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T09:46:16.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\Form1.cs",
+              "RelativeDocumentMoniker": "HomePage\\Form1.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\Form1.cs*",
+              "RelativeToolTip": "HomePage\\Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T09:30:18.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\Form1.cs",
+              "RelativeDocumentMoniker": "HomePage\\Form1.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\Form1.cs [Design]*",
+              "RelativeToolTip": "HomePage\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:54:52.035Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.csproj",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj",
+              "RelativeDocumentMoniker": "HomePage\\HomePage.csproj",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\OrderPage\\HomePage\\HomePage.csproj",
+              "RelativeToolTip": "HomePage\\HomePage.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T16:46:07.818Z",
+              "EditorCaption": ""
             }
           ]
         }
