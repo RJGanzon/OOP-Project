@@ -9,7 +9,6 @@ C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\bin\Debug\net8
 C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.csproj.AssemblyReference.cache
 C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.addToppingsForm.resources
 C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.AdminForm.resources
-C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.Form1.resources
 C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.Form2.resources
 C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.Properties.Resources.resources
 C:\Users\thinkpad\Source\Repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.SignUpForm.resources
@@ -56,3 +55,6 @@ C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.genruntimeconfig.cache
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\ref\WinFormsApp12.dll
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.HomePage.resources
+C:\Users\thinkpad\source\repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.AddToCart.resources
+C:\Users\thinkpad\source\repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.HomePage.resources
+C:\Users\thinkpad\source\repos\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.OrderPage.resources

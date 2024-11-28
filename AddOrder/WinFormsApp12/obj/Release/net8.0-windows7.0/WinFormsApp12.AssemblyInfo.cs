@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsApp12")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95efaa4f71fbfe5d1d62974e8ee648433b3010a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d56476fc09a216abd1bfa14c9c8413900abd26b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsApp12")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsApp12")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

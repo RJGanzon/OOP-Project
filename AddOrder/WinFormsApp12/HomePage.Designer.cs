@@ -73,10 +73,11 @@
             guna2Panel1.Controls.Add(guna2ImageButton1);
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Location = new Point(12, 12);
+            guna2Panel1.Location = new Point(15, 15);
+            guna2Panel1.Margin = new Padding(4);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges3;
-            guna2Panel1.Size = new Size(350, 81);
+            guna2Panel1.Size = new Size(438, 101);
             guna2Panel1.TabIndex = 0;
             // 
             // guna2ImageButton1
@@ -87,21 +88,23 @@
             guna2ImageButton1.ImageOffset = new Point(0, 0);
             guna2ImageButton1.ImageRotate = 0F;
             guna2ImageButton1.ImageSize = new Size(40, 40);
-            guna2ImageButton1.Location = new Point(288, 15);
+            guna2ImageButton1.Location = new Point(360, 19);
+            guna2ImageButton1.Margin = new Padding(4);
             guna2ImageButton1.Name = "guna2ImageButton1";
             guna2ImageButton1.PressedState.Image = (Image)resources.GetObject("resource.Image");
             guna2ImageButton1.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges1;
-            guna2ImageButton1.Size = new Size(50, 50);
+            guna2ImageButton1.Size = new Size(62, 62);
             guna2ImageButton1.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Cake Mania", 23.9999981F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 20);
+            label1.Font = new Font("Microsoft Sans Serif", 23.9999981F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Location = new Point(15, 25);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(178, 45);
+            label1.Size = new Size(245, 55);
             label1.TabIndex = 0;
             label1.Text = "Greetings!";
             label1.Click += label1_Click;
@@ -110,19 +113,21 @@
             // 
             guna2Panel2.BackColor = Color.FromArgb(122, 178, 178);
             guna2Panel2.CustomizableEdges = customizableEdges4;
-            guna2Panel2.Location = new Point(12, 120);
+            guna2Panel2.Location = new Point(15, 150);
+            guna2Panel2.Margin = new Padding(4);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            guna2Panel2.Size = new Size(350, 125);
+            guna2Panel2.Size = new Size(438, 156);
             guna2Panel2.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 271);
+            label2.Location = new Point(15, 339);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(147, 28);
+            label2.Size = new Size(174, 32);
             label2.TabIndex = 2;
             label2.Text = "Recently Added";
             // 
@@ -130,9 +135,10 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.Location = new Point(237, 271);
+            label3.Location = new Point(296, 339);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(126, 28);
+            label3.Size = new Size(148, 32);
             label3.TabIndex = 3;
             label3.Text = "What's New?";
             // 
@@ -143,11 +149,12 @@
             guna2ImageButton2.Image = (Image)resources.GetObject("guna2ImageButton2.Image");
             guna2ImageButton2.ImageOffset = new Point(0, 0);
             guna2ImageButton2.ImageRotate = 0F;
-            guna2ImageButton2.Location = new Point(47, 312);
+            guna2ImageButton2.Location = new Point(59, 390);
+            guna2ImageButton2.Margin = new Padding(4);
             guna2ImageButton2.Name = "guna2ImageButton2";
             guna2ImageButton2.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2ImageButton2.Size = new Size(80, 68);
+            guna2ImageButton2.Size = new Size(100, 85);
             guna2ImageButton2.TabIndex = 4;
             // 
             // guna2ImageButton3
@@ -157,11 +164,12 @@
             guna2ImageButton3.Image = (Image)resources.GetObject("guna2ImageButton3.Image");
             guna2ImageButton3.ImageOffset = new Point(0, 0);
             guna2ImageButton3.ImageRotate = 0F;
-            guna2ImageButton3.Location = new Point(255, 312);
+            guna2ImageButton3.Location = new Point(319, 390);
+            guna2ImageButton3.Margin = new Padding(4);
             guna2ImageButton3.Name = "guna2ImageButton3";
             guna2ImageButton3.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton3.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            guna2ImageButton3.Size = new Size(80, 68);
+            guna2ImageButton3.Size = new Size(100, 85);
             guna2ImageButton3.TabIndex = 5;
             // 
             // guna2ImageButton4
@@ -171,11 +179,12 @@
             guna2ImageButton4.Image = (Image)resources.GetObject("guna2ImageButton4.Image");
             guna2ImageButton4.ImageOffset = new Point(0, 0);
             guna2ImageButton4.ImageRotate = 0F;
-            guna2ImageButton4.Location = new Point(47, 397);
+            guna2ImageButton4.Location = new Point(59, 496);
+            guna2ImageButton4.Margin = new Padding(4);
             guna2ImageButton4.Name = "guna2ImageButton4";
             guna2ImageButton4.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton4.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2ImageButton4.Size = new Size(80, 68);
+            guna2ImageButton4.Size = new Size(100, 85);
             guna2ImageButton4.TabIndex = 6;
             // 
             // guna2ImageButton5
@@ -185,11 +194,12 @@
             guna2ImageButton5.Image = (Image)resources.GetObject("guna2ImageButton5.Image");
             guna2ImageButton5.ImageOffset = new Point(0, 0);
             guna2ImageButton5.ImageRotate = 0F;
-            guna2ImageButton5.Location = new Point(255, 397);
+            guna2ImageButton5.Location = new Point(319, 496);
+            guna2ImageButton5.Margin = new Padding(4);
             guna2ImageButton5.Name = "guna2ImageButton5";
             guna2ImageButton5.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton5.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            guna2ImageButton5.Size = new Size(80, 68);
+            guna2ImageButton5.Size = new Size(100, 85);
             guna2ImageButton5.TabIndex = 7;
             // 
             // guna2ImageButton6
@@ -199,11 +209,12 @@
             guna2ImageButton6.Image = (Image)resources.GetObject("guna2ImageButton6.Image");
             guna2ImageButton6.ImageOffset = new Point(0, 0);
             guna2ImageButton6.ImageRotate = 0F;
-            guna2ImageButton6.Location = new Point(47, 486);
+            guna2ImageButton6.Location = new Point(59, 608);
+            guna2ImageButton6.Margin = new Padding(4);
             guna2ImageButton6.Name = "guna2ImageButton6";
             guna2ImageButton6.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton6.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2ImageButton6.Size = new Size(80, 68);
+            guna2ImageButton6.Size = new Size(100, 85);
             guna2ImageButton6.TabIndex = 8;
             // 
             // guna2ImageButton7
@@ -213,11 +224,12 @@
             guna2ImageButton7.Image = (Image)resources.GetObject("guna2ImageButton7.Image");
             guna2ImageButton7.ImageOffset = new Point(0, 0);
             guna2ImageButton7.ImageRotate = 0F;
-            guna2ImageButton7.Location = new Point(255, 486);
+            guna2ImageButton7.Location = new Point(319, 608);
+            guna2ImageButton7.Margin = new Padding(4);
             guna2ImageButton7.Name = "guna2ImageButton7";
             guna2ImageButton7.PressedState.ImageSize = new Size(64, 64);
             guna2ImageButton7.ShadowDecoration.CustomizableEdges = customizableEdges11;
-            guna2ImageButton7.Size = new Size(80, 68);
+            guna2ImageButton7.Size = new Size(100, 85);
             guna2ImageButton7.TabIndex = 9;
             // 
             // guna2Panel3
@@ -228,10 +240,11 @@
             guna2Panel3.Controls.Add(btnGoToAdd);
             guna2Panel3.Controls.Add(btnGoToHome);
             guna2Panel3.CustomizableEdges = customizableEdges16;
-            guna2Panel3.Location = new Point(-28, 747);
+            guna2Panel3.Location = new Point(-35, 934);
+            guna2Panel3.Margin = new Padding(4);
             guna2Panel3.Name = "guna2Panel3";
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            guna2Panel3.Size = new Size(417, 76);
+            guna2Panel3.Size = new Size(521, 95);
             guna2Panel3.TabIndex = 10;
             guna2Panel3.Paint += guna2Panel3_Paint;
             // 
@@ -243,12 +256,13 @@
             guna2ImageButton11.ImageOffset = new Point(0, 0);
             guna2ImageButton11.ImageRotate = 0F;
             guna2ImageButton11.ImageSize = new Size(50, 50);
-            guna2ImageButton11.Location = new Point(341, 3);
+            guna2ImageButton11.Location = new Point(426, 4);
+            guna2ImageButton11.Margin = new Padding(4);
             guna2ImageButton11.Name = "guna2ImageButton11";
             guna2ImageButton11.PressedState.Image = (Image)resources.GetObject("resource.Image1");
             guna2ImageButton11.PressedState.ImageSize = new Size(50, 50);
             guna2ImageButton11.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2ImageButton11.Size = new Size(50, 50);
+            guna2ImageButton11.Size = new Size(62, 62);
             guna2ImageButton11.TabIndex = 14;
             // 
             // btnGoToCart
@@ -259,13 +273,15 @@
             btnGoToCart.ImageOffset = new Point(0, 0);
             btnGoToCart.ImageRotate = 0F;
             btnGoToCart.ImageSize = new Size(50, 50);
-            btnGoToCart.Location = new Point(242, 3);
+            btnGoToCart.Location = new Point(171, 4);
+            btnGoToCart.Margin = new Padding(4);
             btnGoToCart.Name = "btnGoToCart";
             btnGoToCart.PressedState.Image = (Image)resources.GetObject("resource.Image2");
             btnGoToCart.PressedState.ImageSize = new Size(50, 50);
             btnGoToCart.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            btnGoToCart.Size = new Size(50, 50);
+            btnGoToCart.Size = new Size(62, 62);
             btnGoToCart.TabIndex = 13;
+            btnGoToCart.Click += btnGoToCart_Click;
             // 
             // btnGoToAdd
             // 
@@ -275,13 +291,15 @@
             btnGoToAdd.ImageOffset = new Point(0, 0);
             btnGoToAdd.ImageRotate = 0F;
             btnGoToAdd.ImageSize = new Size(50, 50);
-            btnGoToAdd.Location = new Point(40, 3);
+            btnGoToAdd.Location = new Point(50, 4);
+            btnGoToAdd.Margin = new Padding(4);
             btnGoToAdd.Name = "btnGoToAdd";
             btnGoToAdd.PressedState.Image = (Image)resources.GetObject("resource.Image3");
             btnGoToAdd.PressedState.ImageSize = new Size(50, 50);
             btnGoToAdd.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            btnGoToAdd.Size = new Size(50, 50);
+            btnGoToAdd.Size = new Size(62, 62);
             btnGoToAdd.TabIndex = 12;
+            btnGoToAdd.Click += btnGoToAdd_Click;
             // 
             // btnGoToHome
             // 
@@ -291,21 +309,22 @@
             btnGoToHome.ImageOffset = new Point(0, 0);
             btnGoToHome.ImageRotate = 0F;
             btnGoToHome.ImageSize = new Size(50, 50);
-            btnGoToHome.Location = new Point(137, 3);
+            btnGoToHome.Location = new Point(302, 4);
+            btnGoToHome.Margin = new Padding(4);
             btnGoToHome.Name = "btnGoToHome";
             btnGoToHome.PressedState.Image = (Image)resources.GetObject("resource.Image4");
             btnGoToHome.PressedState.ImageSize = new Size(50, 50);
             btnGoToHome.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            btnGoToHome.Size = new Size(50, 50);
+            btnGoToHome.Size = new Size(62, 62);
             btnGoToHome.TabIndex = 11;
             btnGoToHome.Click += guna2ImageButton8_Click;
             // 
             // HomePage
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(205, 232, 229);
-            ClientSize = new Size(374, 805);
+            ClientSize = new Size(468, 1006);
             Controls.Add(guna2Panel3);
             Controls.Add(guna2ImageButton7);
             Controls.Add(guna2ImageButton6);
@@ -317,6 +336,7 @@
             Controls.Add(label2);
             Controls.Add(guna2Panel2);
             Controls.Add(guna2Panel1);
+            Margin = new Padding(4);
             Name = "HomePage";
             Text = "Home Page";
             guna2Panel1.ResumeLayout(false);

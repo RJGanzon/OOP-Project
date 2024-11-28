@@ -31,5 +31,25 @@ namespace WinFormsApp12
         {
 
         }
+
+        private void btnGoToAdd_Click(object sender, EventArgs e)
+        {
+            AddToCart goToAddPage = new AddToCart();
+
+            // Show AddToCart form
+            goToAddPage.Show();
+
+            this.Hide();
+        }
+
+        private void btnGoToCart_Click(object sender, EventArgs e)
+        {
+            OrderPage goToCartPage = new OrderPage();
+
+            // Show AddToCart form
+            goToCartPage.Show();
+
+            this.Hide();
+        }
     }
 }
