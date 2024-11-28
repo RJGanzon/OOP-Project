@@ -21,5 +21,15 @@ namespace WinFormsApp12
         {
 
         }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
