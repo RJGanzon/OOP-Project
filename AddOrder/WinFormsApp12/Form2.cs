@@ -40,26 +40,30 @@ namespace WinFormsApp12
 
                     var user = lines.Select(line => line.Split(',')).FirstOrDefault(u => u[0].Trim() == username && u[1].Trim() == password);
 
-                    if (user != null)
-                    {
-                        string role = user[2];
-                        if (role == "Admin")
+                        if (user != null)
                         {
-                            AdminForm adminForm = new AdminForm();
-                            adminForm.Show();
-                        }
+                            string role = user[2].Trim();
 
-                        else if (role == "User")
-                        {
-                            UserForm userForm = new UserForm();
-                            userForm.Show();
+                            if (role == "Admin")
+                            {
+                                AdminForm adminForm = new AdminForm();
+                                adminForm.Show();
+                            }
+
+                            else if (role == "User")
+                            {
+                                this.Hide();
+                                HomePage homePage = new HomePage();
+                                homePage.ShowDialog();
+
                         }
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Invalid user or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                        
+                        
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid user or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                 }
             }
             catch (Exception ex)
@@ -71,9 +75,11 @@ namespace WinFormsApp12
 
         private void btnSignup_Click(object sender, EventArgs e)
         {
-            SignUpForm SignUpForm = new SignUpForm();
+            
+            SignUpForm SignUpForm = new SignUpForm(this);
             SignUpForm.Show();
-            this.Close();
+            this.Hide();
+
         }
     }
 }

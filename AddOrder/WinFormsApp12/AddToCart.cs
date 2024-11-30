@@ -15,8 +15,6 @@ namespace WinFormsApp12
         public AddToCart()
         {
             InitializeComponent();
-            Form2 Form2 = new Form2();
-            Form2.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)

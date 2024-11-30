@@ -122,6 +122,7 @@
             Controls.Add(txtUsername);
             Controls.Add(label1);
             Name = "SignUpForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUpForm";
             ResumeLayout(false);
             PerformLayout();
