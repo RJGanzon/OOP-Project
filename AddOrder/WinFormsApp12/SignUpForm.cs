@@ -33,7 +33,8 @@ namespace WinFormsApp12
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            if (txtUsername.Text.Length > 8 && txtPassword.Text.Length > 8 ) {
+            if (txtUsername.Text.Length > 8 && txtPassword.Text.Length > 8)
+            {
                 if (password == txtConfirmPassword.Text)
                 {
                     using (var fs = new FileStream(accountsPath, FileMode.Append))
@@ -54,6 +55,11 @@ namespace WinFormsApp12
             {
                 MessageBox.Show($"Error: User and Password length must be greater than 8 characters!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+        }
+
+        private void SignUpForm_Load(object sender, EventArgs e)
+        {
 
         }
     }
