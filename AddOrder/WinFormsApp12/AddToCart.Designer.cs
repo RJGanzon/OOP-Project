@@ -549,7 +549,7 @@
             btnGoToHome.ShadowDecoration.CustomizableEdges = customizableEdges36;
             btnGoToHome.Size = new Size(63, 63);
             btnGoToHome.TabIndex = 1;
-            btnGoToHome.Click += guna2ImageButton1_Click;
+            btnGoToHome.Click += btnGoToHome_Click;
             // 
             // txtOrderCost
             // 
@@ -563,7 +563,6 @@
             txtOrderCost.Size = new Size(73, 29);
             txtOrderCost.TabIndex = 9;
             txtOrderCost.Text = "Cost:";
-            txtOrderCost.Click += label3_Click;
             // 
             // AddToCart
             // 

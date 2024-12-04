@@ -1,0 +1,23 @@
+2024-12-04 22:10:56
+  Cup Size: 8oz
+  Toppings:
+    - Sprinkles: 3g
+    - Chocolate Syrup: 5g
+
+  Cup Size: 12oz
+  Toppings:
+    - Sprinkles: 3g
+    - Chocolate Syrup: 8g
+
+2024-12-04 22:11:23
+  Cup Size: 12oz
+  Toppings:
+    - Sprinkles: 5g
+    - Chocolate Syrup: 23g
+
+  Cup Size: 12oz
+  Toppings:
+    - Sprinkles: 5g
+    - Chocolate Syrup: 23g
+    - Crushed Cookies: 1g
+

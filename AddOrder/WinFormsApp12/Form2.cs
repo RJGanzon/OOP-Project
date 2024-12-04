@@ -20,10 +20,15 @@ namespace WinFormsApp12
             InitializeComponent();
         }
 
+
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
+
+        //tracks the username of the person logged in
+        public static string LoggedInUser { get; private set; }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -37,33 +42,31 @@ namespace WinFormsApp12
                     string lblDisplay = reader.ReadToEnd();
                     var lines = lblDisplay.Split('\n');
 
+                    var user = lines
+                        .Select(line => line.Split(','))
+                        .FirstOrDefault(u => u[0].Trim() == username && u[1].Trim() == password);
 
-                    var user = lines.Select(line => line.Split(',')).FirstOrDefault(u => u[0].Trim() == username && u[1].Trim() == password);
+                    if (user != null)
+                    {
+                        LoggedInUser = username; // Save the logged-in username
+                        string role = user[2].Trim();
 
-                        if (user != null)
+                        if (role == "Admin")
                         {
-                            string role = user[2].Trim();
-
-                            if (role == "Admin")
-                            {
-                                AdminForm adminForm = new AdminForm();
-                                adminForm.Show();
-                            }
-
-                            else if (role == "User")
-                            {
-                                this.Hide();
-                                HomePage homePage = new HomePage();
-                                homePage.ShowDialog();
-
+                            AdminForm adminForm = new AdminForm();
+                            adminForm.Show();
                         }
-                        
-                        
-                        }
-                        else
+                        else if (role == "User")
                         {
-                            MessageBox.Show("Invalid user or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            this.Hide();
+                            HomePage homePage = new HomePage();
+                            homePage.ShowDialog();
                         }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid user or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
             catch (Exception ex)

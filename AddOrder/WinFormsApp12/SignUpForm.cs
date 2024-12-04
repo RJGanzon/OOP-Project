@@ -33,6 +33,12 @@ namespace WinFormsApp12
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
+            if (UsernameExists(username))
+            {
+                MessageBox.Show("Error: Username already exists. Please choose a different username.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if (txtUsername.Text.Length > 8 && txtPassword.Text.Length > 8)
             {
                 if (password == txtConfirmPassword.Text)
@@ -56,6 +62,23 @@ namespace WinFormsApp12
                 MessageBox.Show($"Error: User and Password length must be greater than 8 characters!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }
+
+        private bool UsernameExists(string username)
+        {
+            if (File.Exists(accountsPath))
+            {
+                var lines = File.ReadAllLines(accountsPath);
+                foreach (var line in lines)
+                {
+                    var parts = line.Split(',');
+                    if (parts[0].Trim() == username.Trim())
+                    {
+                        return true; 
+                    }
+                }
+            }
+            return false;
         }
 
         private void SignUpForm_Load(object sender, EventArgs e)

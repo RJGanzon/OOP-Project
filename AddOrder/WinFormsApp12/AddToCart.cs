@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace WinFormsApp12
@@ -10,21 +11,23 @@ namespace WinFormsApp12
     {
         private string selectedCupSize = ""; // Stores the selected cup size
         private Dictionary<string, int> toppings = new Dictionary<string, int>(); // Stores toppings and their grams
-        private List<Order> orders = new List<Order>(); // Stores all orders
+        private List<BaseOrder> orders = new List<BaseOrder>(); // Stores all orders
 
-        //Cup sizes Price
-        private const int Price8oz = 50;
-        private const int Price12oz = 100;
-        private const int Price16oz = 150;
+        // Cup sizes Price
+        private const float Price8oz = 50;
+        private const float Price12oz = 100;
+        private const float Price16oz = 150;
 
-        private readonly Dictionary<string, int> ToppingPrices = new Dictionary<string, int>
+        private readonly Dictionary<string, float> ToppingPrices = new Dictionary<string, float>
         {
-            { "Sprinkles", 10 },
-            { "Chocolate Syrup", 20 },
-            { "Mango", 15 },
-            { "Marshmallow", 10 },
-            { "Biscoff Syrup", 25 }
+            { "Sprinkles", 0.50F },
+            { "Chocolate Syrup", 0.75F },
+            { "Mango", 1.00F },
+            { "Marshmallow", 0.40F },
+            { "Biscoff Syrup", 1.20F },
+            { "Crushed Cookies", 0.60F }
         };
+
         public AddToCart()
         {
             InitializeComponent();
@@ -92,7 +95,7 @@ namespace WinFormsApp12
             }
         }
 
-        //Calculates the total cost
+        // Calculates the total cost
         private float CalculateOrderCost()
         {
             float cost = 0;
@@ -101,13 +104,13 @@ namespace WinFormsApp12
             switch (selectedCupSize)
             {
                 case "8oz":
-                    cost += 50.00f;
+                    cost += Price8oz;
                     break;
                 case "12oz":
-                    cost += 100.00f;
+                    cost += Price12oz;
                     break;
                 case "16oz":
-                    cost += 150.00f;
+                    cost += Price16oz;
                     break;
             }
 
@@ -123,56 +126,47 @@ namespace WinFormsApp12
             return cost;
         }
 
-        //Updates txtOrderCost
+        // Updates txtOrderCost
         private void UpdateOrderCost()
         {
             float totalCost = CalculateOrderCost();
             txtOrderCost.Text = $"Cost: ₱{totalCost:0.00}"; // Format to PHP with .00
         }
 
-
         // Add the current order to the list and clear inputs for a new order
         private void btnAddToCart_Click_1(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(selectedCupSize))
+            if (selectedCupSize == "")
             {
                 MessageBox.Show("Please select a cup size before adding to cart.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            if (toppings.Count == 0)
+            // Add toppings to the current order
+            BaseOrder currentOrder = GetCurrentOrder();
+            currentOrder.CupSize = selectedCupSize;
+
+            // Add toppings from the toppings dictionary to the current order
+            foreach (var topping in toppings)
             {
-                MessageBox.Show("Please add at least one topping before adding to cart.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                currentOrder.AddTopping(topping.Key, topping.Value);
             }
 
-            // Create a new order
-            var newOrder = new Order
-            {
-                CupSize = selectedCupSize,
-                Toppings = new Dictionary<string, int>(toppings), // Copy toppings
-                TotalCost = CalculateOrderCost()
-            };
-
-            // Add the order to the list
-            orders.Add(newOrder);
-
             // Save the order to a file
-            SaveOrderToFile(newOrder);
-
+            SaveOrderToFile(currentOrder);
 
             // Display all orders
             string allOrders = "Current Orders:\n";
-            for (int i = 0; i < orders.Count; i++)
+            foreach (var order in orders)
             {
-                allOrders += $"Order {i + 1}:\n";
-                allOrders += $"- Cup Size: {orders[i].CupSize}\n";
+                allOrders += $"Order:\n";
+                allOrders += $"- Cup Size: {order.CupSize}\n";
                 allOrders += "- Toppings:\n";
-                foreach (var topping in orders[i].Toppings)
+                foreach (var topping in order.Toppings)
                 {
                     allOrders += $"  * {topping.Key}: {topping.Value}g\n";
                 }
-                allOrders += "\n";
+                allOrders += $"- Total Cost: ₱{order.TotalCost:0.00}\n\n";
             }
 
             MessageBox.Show(allOrders, "All Orders", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -180,10 +174,11 @@ namespace WinFormsApp12
             // Clear inputs for a new order
             selectedCupSize = "";
             toppings.Clear();
+            txtOrderCost.Text = "Cost: ";
         }
 
-        //Saves the Order to a File
-        private void SaveOrderToFile(Order order)
+        // Saves the Order to a File
+        private void SaveOrderToFile(BaseOrder order)
         {
             string fileName = "tempOrders.txt";
             string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
@@ -198,13 +193,13 @@ namespace WinFormsApp12
                 {
                     writer.WriteLine($"  - {topping.Key}: {topping.Value}g");
                 }
+                writer.WriteLine($"Total Cost: ₱{order.TotalCost:0.00}");
                 writer.WriteLine(); // Blank line for separation
             }
         }
 
         private void btn8ozCup_Click_1(object sender, EventArgs e)
         {
-            UpdateOrderCost();
             selectedCupSize = "8oz";
             UpdateOrderCost();
         }
@@ -221,79 +216,96 @@ namespace WinFormsApp12
             UpdateOrderCost();
         }
 
-        // Keep all existing method signatures intact
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        private void btnGoToAdd_Click(object sender, EventArgs e)
         {
-            // Placeholder for any click event on PictureBox
+            AddToCart goToAddPage = new AddToCart();
+            goToAddPage.Show();
+            this.Hide();
         }
 
-        private void guna2PictureBox1_Click_1(object sender, EventArgs e)
-        {
-            // Placeholder for any click event on PictureBox
-        }
-
-        private void guna2PictureBox2_Click(object sender, EventArgs e)
-        {
-            // Placeholder for any click event on PictureBox
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-            // Placeholder for any text change event in TextBox
-        }
-
-        private void guna2PictureBox6_Click(object sender, EventArgs e)
-        {
-            // Placeholder for any click event on PictureBox
-        }
-
-        private void guna2Panel4_Paint(object sender, PaintEventArgs e)
-        {
-            // Placeholder for any Paint event in Panel
-        }
-
-        private void guna2ImageButton1_Click(object sender, EventArgs e)  //btn go to home to
+        private void btnGoToHome_Click(object sender, EventArgs e)
         {
             HomePage goToHomePage = new HomePage();
-
-            // Show AddToCart form
             goToHomePage.Show();
-
             this.Hide();
         }
 
         private void btnGoToCart_Click(object sender, EventArgs e)
         {
-            OrderPage goToOrderPage = new OrderPage();
-
-            // Show AddToCart form
-            goToOrderPage.Show();
-
+            OrderPage goToCartPage = new OrderPage();
+            goToCartPage.Show();
             this.Hide();
         }
 
-        private void btnGoToAdd_Click(object sender, EventArgs e)
+        // Helper method to get the current order
+        private BaseOrder GetCurrentOrder()
         {
-
-        }
-
-        private void txtOrderCost_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            if (orders.Count == 0)
+            {
+                orders.Add(new Order(ToppingPrices)); // Pass ToppingPrices when creating a new Order
+            }
+            return orders[orders.Count - 1];
         }
     }
 
-    // Order class to store cup size and toppings
-    public class Order
+    // Abstract base class for Order
+    public abstract class BaseOrder
     {
-        public string Timestamp { get; set; }
+        public string Timestamp { get; set; } = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         public string CupSize { get; set; }
         public Dictionary<string, int> Toppings { get; set; } = new Dictionary<string, int>();
         public float TotalCost { get; set; }
+
+        public abstract void AddTopping(string toppingName, int grams);
+        public abstract void UpdateTotalCost();
+    }
+
+    // Concrete Order class with specific behavior
+    public class Order : BaseOrder
+    {
+        private readonly Dictionary<string, float> ToppingPrices; // Declare ToppingPrices
+
+        public Order(Dictionary<string, float> toppingPrices)
+        {
+            ToppingPrices = toppingPrices; // Initialize ToppingPrices in the constructor
+        }
+
+        public override void AddTopping(string toppingName, int grams)
+        {
+            if (Toppings.ContainsKey(toppingName))
+                Toppings[toppingName] += grams;
+            else
+                Toppings[toppingName] = grams;
+
+            UpdateTotalCost();
+        }
+
+        public override void UpdateTotalCost()
+        {
+            TotalCost = 0;
+
+            // Add cup size cost
+            switch (CupSize)
+            {
+                case "8oz":
+                    TotalCost += 50;
+                    break;
+                case "12oz":
+                    TotalCost += 100;
+                    break;
+                case "16oz":
+                    TotalCost += 150;
+                    break;
+            }
+
+            // Add topping costs
+            foreach (var topping in Toppings)
+            {
+                if (ToppingPrices.ContainsKey(topping.Key))
+                {
+                    TotalCost += ToppingPrices[topping.Key] * topping.Value;
+                }
+            }
+        }
     }
 }

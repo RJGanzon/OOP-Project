@@ -48,23 +48,30 @@ namespace WinFormsApp12
                             {
                                 orders.Add(currentOrder); // Add the previous order
                             }
-                            currentOrder = new Order
+                            currentOrder = new Order(new Dictionary<string, float>
                             {
-                                Timestamp = line
-                            };
+                                { "Sprinkles", 0.50F },
+                                { "Chocolate Syrup", 0.75F },
+                                { "Mango", 1.00F },
+                                { "Marshmallow", 0.40F },
+                                { "Biscoff Syrup", 1.20F }
+                            });
+                            currentOrder.Timestamp = line;
                         }
                         else if (line.StartsWith("Cup Size:"))
                         {
                             if (currentOrder != null)
                             {
-                                currentOrder.CupSize = line.Split(':')[1].Trim();
+                                // Assign the correct cup size
+                                string cupSize = line.Split(':')[1].Trim();
+                                currentOrder.CupSize = cupSize;
                             }
                         }
                         else if (line.StartsWith("Toppings:"))
                         {
                             if (currentOrder != null)
                             {
-                                currentOrder.Toppings = new Dictionary<string, int>();
+                                currentOrder.Toppings.Clear(); // Clear previous toppings
                             }
                         }
                         else if (line.StartsWith("  -"))
@@ -76,7 +83,8 @@ namespace WinFormsApp12
                                 string[] parts = toppingInfo.Split(':');
                                 string toppingName = parts[0].Trim();
                                 int grams = int.Parse(parts[1].Replace("g", "").Trim());
-                                currentOrder.Toppings[toppingName] = grams;
+
+                                currentOrder.AddTopping(toppingName, grams);
                             }
                         }
                     }
@@ -95,12 +103,20 @@ namespace WinFormsApp12
         {
             listBox1.Items.Clear(); // Clear any existing items.
 
+            string lastTimestamp = string.Empty; // Store the last timestamp to check for grouping
+
             foreach (var order in orders)
             {
-                // Add a line for the cup size
+                // Only display the timestamp if it's different from the last one
+                if (order.Timestamp != lastTimestamp)
+                {
+                    listBox1.Items.Add(order.Timestamp);
+                    lastTimestamp = order.Timestamp; // Update the last timestamp
+                }
+
+                // Display cup size and toppings for the order
                 listBox1.Items.Add($"  Cup Size: {order.CupSize}");
 
-                // Add lines for each topping
                 if (order.Toppings != null && order.Toppings.Count > 0)
                 {
                     listBox1.Items.Add("  Toppings:");
@@ -110,8 +126,7 @@ namespace WinFormsApp12
                     }
                 }
 
-                // Add a blank line for separation between orders
-                listBox1.Items.Add(string.Empty);
+                listBox1.Items.Add(string.Empty); // Blank line for separation between orders
             }
         }
 
@@ -121,78 +136,30 @@ namespace WinFormsApp12
 
             foreach (var order in orders)
             {
-                totalCost += CalculateOrderCost(order);
+                totalCost += order.TotalCost;
             }
 
             lblTotalCost.Text = $"Cost: ₱{totalCost:0.00}";
         }
 
-        private float CalculateOrderCost(Order order)
-        {
-            float cost = 0;
-
-            // Add cost based on cup size
-            switch (order.CupSize)
-            {
-                case "8oz":
-                    cost += 50;
-                    break;
-                case "12oz":
-                    cost += 100;
-                    break;
-                case "16oz":
-                    cost += 150;
-                    break;
-            }
-
-            // Add topping costs
-            var toppingPrices = new Dictionary<string, int>
-            {
-                { "Sprinkles", 10 },
-                { "Chocolate Syrup", 20 },
-                { "Mango", 15 },
-                { "Marshmallow", 10 },
-                { "Biscoff Syrup", 25 }
-            };
-
-            foreach (var topping in order.Toppings)
-            {
-                if (toppingPrices.ContainsKey(topping.Key))
-                {
-                    cost += toppingPrices[topping.Key] * topping.Value;
-                }
-            }
-
-            return cost;
-        }
-
         private void btnGoToAdd_Click(object sender, EventArgs e)
         {
             AddToCart goToAddPage = new AddToCart();
-
-            // Show AddToCart form
             goToAddPage.Show();
-
             this.Hide();
         }
 
         private void btnGoToHome_Click(object sender, EventArgs e)
         {
             HomePage goToHomePage = new HomePage();
-
-            // Show HomePage
             goToHomePage.Show();
-
             this.Hide();
         }
 
         private void btnGoToCart_Click(object sender, EventArgs e)
         {
             OrderPage goToCartPage = new OrderPage();
-
-            // Show AddToCart form
             goToCartPage.Show();
-
             this.Hide();
         }
 
@@ -200,40 +167,63 @@ namespace WinFormsApp12
         {
             using (StreamWriter writer = new StreamWriter(permanentFileName, append: true))
             {
+                string lastTimestamp = string.Empty; // Store the last timestamp to check for grouping
+
                 foreach (var order in orders)
                 {
-                    writer.WriteLine(order.Timestamp); // Write the timestamp
+                    // Only write the timestamp if it's different from the last one
+                    if (order.Timestamp != lastTimestamp)
+                    {
+                        writer.WriteLine(order.Timestamp);
+                        lastTimestamp = order.Timestamp; // Update the last timestamp
+                    }
+
                     writer.WriteLine($"  Cup Size: {order.CupSize}");
                     writer.WriteLine("  Toppings:");
                     foreach (var topping in order.Toppings)
                     {
                         writer.WriteLine($"    - {topping.Key}: {topping.Value}g");
                     }
-                    writer.WriteLine(); // Add a blank line for separation between orders
+                    writer.WriteLine(); // Blank line for separation between orders
                 }
             }
         }
 
         private void ClearTempFile()
         {
-            // Clear the content of the temporary file
             File.WriteAllText("tempOrders.txt", string.Empty);
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            // Placeholder method for event
         }
 
         private void btnOrderNow_Click_1(object sender, EventArgs e)
         {
-            // Move orders from tempOrders.txt to permanent file
+            if (string.IsNullOrEmpty(Form2.LoggedInUser))
+            {
+                MessageBox.Show("No user is logged in.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Set a fixed timestamp for all orders
+            string currentTimestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            // Read orders from temp file
             List<Order> orders = ReadOrdersFromFile("tempOrders.txt");
 
             if (orders.Count > 0)
             {
-                string permanentFileName = $"OrderHistory.txt";
-                SaveOrdersToPermanentFile(orders, permanentFileName);
+                // Update all orders with the same timestamp
+                foreach (var order in orders)
+                {
+                    order.Timestamp = currentTimestamp;  // Set the same timestamp for all orders
+                }
+
+                // Save the orders to the user's permanent file
+                string userHistoryFile = $"{Form2.LoggedInUser}_OrderHistory.txt";
+                SaveOrdersToPermanentFile(orders, userHistoryFile);
 
                 listBox1.Items.Clear();
                 ClearTempFile();
@@ -244,16 +234,33 @@ namespace WinFormsApp12
             {
                 MessageBox.Show("No orders to place.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            lblTotalCost.Text = "Cost: ";
         }
+
 
         private void btnCancelOrder_Click_1(object sender, EventArgs e)
         {
-            // Clear the temporary file when cancelling
             listBox1.Items.Clear();
             ClearTempFile();
             MessageBox.Show("Order has been cancelled.", "Cancelled", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            lblTotalCost.Text = "Cost: ";
+        }
+
+        // Loads the current user's purchase history
+        private void LoadOrderHistoryForUser(string username)
+        {
+            string userHistoryFile = $"{username}_OrderHistory.txt";
+
+            if (File.Exists(userHistoryFile))
+            {
+                List<Order> orders = ReadOrdersFromFile(userHistoryFile);
+                DisplayOrders(orders);
+            }
+            else
+            {
+                MessageBox.Show("No order history found for this user.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
-
-
 }
