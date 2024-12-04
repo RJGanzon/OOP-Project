@@ -1,6 +1,8 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /AddOrder/.vs/WinFormsApp12/FileContentIndex/24b022d7-d468-440e-9d09-5ed97b8a0875.vsidx
 /AddOrder/.vs/WinFormsApp12/FileContentIndex/dd8972ec-c621-444d-ae40-029f675ad9e3.vsidx
+AddOrder/.vs/WinFormsApp12/FileContentIndex/0a1a9eee-4f48-4ccf-a89b-8bc8ba5fde3e.vsidx 
+/AddOrder/.vs
