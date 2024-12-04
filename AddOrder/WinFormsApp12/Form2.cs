@@ -20,12 +20,15 @@ namespace WinFormsApp12
             InitializeComponent();
         }
 
+<<<<<<< HEAD
 
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 58ae4e8a3bbae7175908bb8b5587d5ce94e5758f
 
         //tracks the username of the person logged in
         public static string LoggedInUser { get; private set; }

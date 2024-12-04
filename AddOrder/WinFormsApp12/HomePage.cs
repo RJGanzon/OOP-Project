@@ -17,20 +17,6 @@ namespace WinFormsApp12
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2ImageButton8_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnGoToAdd_Click(object sender, EventArgs e)
         {
@@ -52,14 +38,6 @@ namespace WinFormsApp12
             this.Hide();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

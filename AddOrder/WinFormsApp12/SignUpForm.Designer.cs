@@ -146,7 +146,7 @@
             Name = "SignUpForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUpForm";
-            Load += SignUpForm_Load;
+        
             ResumeLayout(false);
             PerformLayout();
         }

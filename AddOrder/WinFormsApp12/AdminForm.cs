@@ -16,5 +16,7 @@ namespace WinFormsApp12
         {
             InitializeComponent();
         }
+
+        
     }
 }

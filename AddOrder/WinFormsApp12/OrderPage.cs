@@ -194,10 +194,13 @@ namespace WinFormsApp12
             File.WriteAllText("tempOrders.txt", string.Empty);
         }
 
+<<<<<<< HEAD
         private void label2_Click(object sender, EventArgs e)
         {
             // Placeholder method for event
         }
+=======
+>>>>>>> 58ae4e8a3bbae7175908bb8b5587d5ce94e5758f
 
         private void btnOrderNow_Click_1(object sender, EventArgs e)
         {

@@ -82,10 +82,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Harrington", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(206, 86);
             label1.Name = "label1";
-            label1.Size = new Size(325, 32);
+            label1.Size = new Size(319, 32);
             label1.TabIndex = 1;
             label1.Text = "Input Amount of Grams";
             label1.Click += label1_Click;

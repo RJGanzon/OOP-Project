@@ -34,6 +34,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -48,12 +50,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             label1 = new Label();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            label4 = new Label();
+            guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            label5 = new Label();
             label2 = new Label();
             label3 = new Label();
             guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -68,9 +71,6 @@
             btnGoToAdd = new Guna.UI2.WinForms.Guna2ImageButton();
             btnGoToHome = new Guna.UI2.WinForms.Guna2ImageButton();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            label4 = new Label();
-            label5 = new Label();
-            guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
@@ -79,9 +79,9 @@
             label13 = new Label();
             guna2Panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -115,13 +115,13 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Cake Mania", 23.9999981F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Harrington", 24F, FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.Location = new Point(11, 20);
             label1.Name = "label1";
-            label1.Size = new Size(178, 45);
+            label1.Size = new Size(197, 47);
             label1.TabIndex = 0;
             label1.Text = "Greetings!";
-            label1.Click += label1_Click;
+           
             // 
             // guna2Panel2
             // 
@@ -136,6 +136,40 @@
             guna2Panel2.Size = new Size(351, 125);
             guna2Panel2.TabIndex = 1;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Harrington", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label4.Location = new Point(11, 35);
+            label4.Name = "label4";
+            label4.Size = new Size(161, 27);
+            label4.TabIndex = 0;
+            label4.Text = "NEW BISCOFF";
+            
+            // 
+            // guna2PictureBox2
+            // 
+            guna2PictureBox2.CustomizableEdges = customizableEdges4;
+            guna2PictureBox2.FillColor = Color.Transparent;
+            guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
+            guna2PictureBox2.ImageRotate = 0F;
+            guna2PictureBox2.Location = new Point(126, -68);
+            guna2PictureBox2.Name = "guna2PictureBox2";
+            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges5;
+            guna2PictureBox2.Size = new Size(226, 216);
+            guna2PictureBox2.TabIndex = 2;
+            guna2PictureBox2.TabStop = false;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Harrington", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label5.Location = new Point(11, 73);
+            label5.Name = "label5";
+            label5.Size = new Size(107, 27);
+            label5.TabIndex = 1;
+            label5.Text = "FLAVOR!";
+            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -145,7 +179,7 @@
             label2.Size = new Size(86, 28);
             label2.TabIndex = 2;
             label2.Text = "Popular!";
-            label2.Click += label2_Click;
+            
             // 
             // label3
             // 
@@ -272,7 +306,7 @@
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges19;
             guna2Panel3.Size = new Size(417, 76);
             guna2Panel3.TabIndex = 10;
-            guna2Panel3.Paint += guna2Panel3_Paint;
+            
             // 
             // guna2ImageButton11
             // 
@@ -339,7 +373,7 @@
             btnGoToHome.ShadowDecoration.CustomizableEdges = customizableEdges17;
             btnGoToHome.Size = new Size(49, 49);
             btnGoToHome.TabIndex = 11;
-            btnGoToHome.Click += guna2ImageButton8_Click;
+            
             // 
             // guna2PictureBox1
             // 
@@ -352,40 +386,6 @@
             guna2PictureBox1.Size = new Size(409, 824);
             guna2PictureBox1.TabIndex = 11;
             guna2PictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Cake Mania", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(11, 35);
-            label4.Name = "label4";
-            label4.Size = new Size(154, 26);
-            label4.TabIndex = 0;
-            label4.Text = "NEW BISCOFF";
-            label4.Click += label4_Click;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Cake Mania", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(11, 73);
-            label5.Name = "label5";
-            label5.Size = new Size(94, 26);
-            label5.TabIndex = 1;
-            label5.Text = "FLAVOR!";
-            // 
-            // guna2PictureBox2
-            // 
-            guna2PictureBox2.CustomizableEdges = customizableEdges4;
-            guna2PictureBox2.FillColor = Color.Transparent;
-            guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
-            guna2PictureBox2.ImageRotate = 0F;
-            guna2PictureBox2.Location = new Point(126, -68);
-            guna2PictureBox2.Name = "guna2PictureBox2";
-            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            guna2PictureBox2.Size = new Size(226, 216);
-            guna2PictureBox2.TabIndex = 2;
-            guna2PictureBox2.TabStop = false;
             // 
             // label8
             // 
@@ -480,9 +480,9 @@
             guna2Panel1.PerformLayout();
             guna2Panel2.ResumeLayout(false);
             guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
             guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

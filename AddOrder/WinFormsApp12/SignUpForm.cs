@@ -64,6 +64,7 @@ namespace WinFormsApp12
 
         }
 
+<<<<<<< HEAD
         private bool UsernameExists(string username)
         {
             if (File.Exists(accountsPath))
@@ -85,5 +86,7 @@ namespace WinFormsApp12
         {
 
         }
+=======
+>>>>>>> 58ae4e8a3bbae7175908bb8b5587d5ce94e5758f
     }
 }
