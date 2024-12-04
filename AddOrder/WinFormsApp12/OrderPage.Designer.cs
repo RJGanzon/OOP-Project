@@ -223,7 +223,7 @@
             lblTotalCost.Size = new Size(80, 32);
             lblTotalCost.TabIndex = 6;
             lblTotalCost.Text = "Cost:";
-            lblTotalCost.Click += label2_Click;
+
             // 
             // OrderPage
             // 

@@ -220,10 +220,6 @@ namespace WinFormsApp12
             File.WriteAllText("tempOrders.txt", string.Empty);
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnOrderNow_Click_1(object sender, EventArgs e)
         {

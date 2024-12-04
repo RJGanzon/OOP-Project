@@ -414,7 +414,7 @@
             label3.Size = new Size(62, 17);
             label3.TabIndex = 19;
             label3.Text = "Sprinkles";
-            label3.Click += label3_Click_1;
+           
             // 
             // btnAddToCart
             // 
@@ -605,7 +605,7 @@
             btnGoToAdd.ShadowDecoration.CustomizableEdges = customizableEdges35;
             btnGoToAdd.Size = new Size(50, 50);
             btnGoToAdd.TabIndex = 4;
-            btnGoToAdd.Click += btnGoToAdd_Click;
+           
             // 
             // btnGoToHome
             // 
@@ -636,7 +636,6 @@
             txtOrderCost.Size = new Size(58, 24);
             txtOrderCost.TabIndex = 9;
             txtOrderCost.Text = "Cost:";
-            txtOrderCost.Click += label3_Click;
             // 
             // AddToCart
             // 

@@ -58,9 +58,5 @@ namespace WinFormsApp12
 
         }
 
-        private void SignUpForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

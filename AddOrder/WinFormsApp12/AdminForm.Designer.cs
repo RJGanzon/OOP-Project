@@ -42,6 +42,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(350, 648);
             listBox1.TabIndex = 0;
+            
             // 
             // label1
             // 

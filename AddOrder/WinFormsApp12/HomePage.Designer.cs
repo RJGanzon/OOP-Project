@@ -121,7 +121,7 @@
             label1.Size = new Size(197, 47);
             label1.TabIndex = 0;
             label1.Text = "Greetings!";
-            label1.Click += label1_Click;
+           
             // 
             // guna2Panel2
             // 
@@ -145,7 +145,7 @@
             label4.Size = new Size(161, 27);
             label4.TabIndex = 0;
             label4.Text = "NEW BISCOFF";
-            label4.Click += label4_Click;
+            
             // 
             // guna2PictureBox2
             // 
@@ -179,7 +179,7 @@
             label2.Size = new Size(86, 28);
             label2.TabIndex = 2;
             label2.Text = "Popular!";
-            label2.Click += label2_Click;
+            
             // 
             // label3
             // 
@@ -306,7 +306,7 @@
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges19;
             guna2Panel3.Size = new Size(417, 76);
             guna2Panel3.TabIndex = 10;
-            guna2Panel3.Paint += guna2Panel3_Paint;
+            
             // 
             // guna2ImageButton11
             // 
@@ -373,7 +373,7 @@
             btnGoToHome.ShadowDecoration.CustomizableEdges = customizableEdges17;
             btnGoToHome.Size = new Size(49, 49);
             btnGoToHome.TabIndex = 11;
-            btnGoToHome.Click += guna2ImageButton8_Click;
+            
             // 
             // guna2PictureBox1
             // 
