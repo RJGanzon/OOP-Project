@@ -59,11 +59,11 @@
             // 
             guna2Panel1.BackColor = Color.FromArgb(161, 85, 185);
             guna2Panel1.CustomizableEdges = customizableEdges1;
-            guna2Panel1.Location = new Point(-54, -66);
-            guna2Panel1.Margin = new Padding(3, 2, 3, 2);
+            guna2Panel1.Location = new Point(-77, -110);
+            guna2Panel1.Margin = new Padding(4, 3, 4, 3);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(416, 98);
+            guna2Panel1.Size = new Size(594, 163);
             guna2Panel1.TabIndex = 0;
             // 
             // label1
@@ -71,20 +71,21 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Sans Serif", 19.7999973F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(10, 37);
+            label1.Location = new Point(14, 62);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(103, 31);
+            label1.Size = new Size(147, 46);
             label1.TabIndex = 1;
             label1.Text = "Orders";
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(10, 67);
-            listBox1.Margin = new Padding(3, 2, 3, 2);
+            listBox1.ItemHeight = 25;
+            listBox1.Location = new Point(14, 112);
+            listBox1.Margin = new Padding(4, 3, 4, 3);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(307, 349);
+            listBox1.Size = new Size(437, 579);
             listBox1.TabIndex = 2;
             // 
             // btnOrderNow
@@ -98,11 +99,11 @@
             btnOrderNow.FillColor = Color.FromArgb(255, 164, 182);
             btnOrderNow.Font = new Font("Microsoft Sans Serif", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnOrderNow.ForeColor = Color.White;
-            btnOrderNow.Location = new Point(10, 419);
-            btnOrderNow.Margin = new Padding(3, 2, 3, 2);
+            btnOrderNow.Location = new Point(14, 698);
+            btnOrderNow.Margin = new Padding(4, 3, 4, 3);
             btnOrderNow.Name = "btnOrderNow";
             btnOrderNow.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnOrderNow.Size = new Size(306, 42);
+            btnOrderNow.Size = new Size(437, 70);
             btnOrderNow.TabIndex = 3;
             btnOrderNow.Text = "Order Now";
             btnOrderNow.Click += btnOrderNow_Click_1;
@@ -117,11 +118,11 @@
             btnCancelOrder.FillColor = Color.FromArgb(247, 101, 163);
             btnCancelOrder.Font = new Font("Microsoft Sans Serif", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelOrder.ForeColor = Color.White;
-            btnCancelOrder.Location = new Point(10, 466);
-            btnCancelOrder.Margin = new Padding(3, 2, 3, 2);
+            btnCancelOrder.Location = new Point(14, 777);
+            btnCancelOrder.Margin = new Padding(4, 3, 4, 3);
             btnCancelOrder.Name = "btnCancelOrder";
             btnCancelOrder.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnCancelOrder.Size = new Size(306, 42);
+            btnCancelOrder.Size = new Size(437, 70);
             btnCancelOrder.TabIndex = 4;
             btnCancelOrder.Text = "Cancel Order";
             btnCancelOrder.Click += btnCancelOrder_Click_1;
@@ -134,11 +135,11 @@
             guna2Panel2.Controls.Add(btnGoToAdd);
             guna2Panel2.Controls.Add(btnGoToHome);
             guna2Panel2.CustomizableEdges = customizableEdges11;
-            guna2Panel2.Location = new Point(-17, 559);
-            guna2Panel2.Margin = new Padding(3, 2, 3, 2);
+            guna2Panel2.Location = new Point(-24, 932);
+            guna2Panel2.Margin = new Padding(4, 3, 4, 3);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2Panel2.Size = new Size(378, 57);
+            guna2Panel2.Size = new Size(540, 95);
             guna2Panel2.TabIndex = 5;
             // 
             // btnGoToCart
@@ -149,13 +150,13 @@
             btnGoToCart.ImageOffset = new Point(0, 0);
             btnGoToCart.ImageRotate = 0F;
             btnGoToCart.ImageSize = new Size(50, 50);
-            btnGoToCart.Location = new Point(113, 2);
-            btnGoToCart.Margin = new Padding(3, 2, 3, 2);
+            btnGoToCart.Location = new Point(161, 3);
+            btnGoToCart.Margin = new Padding(4, 3, 4, 3);
             btnGoToCart.Name = "btnGoToCart";
             btnGoToCart.PressedState.Image = (Image)resources.GetObject("resource.Image");
             btnGoToCart.PressedState.ImageSize = new Size(50, 50);
             btnGoToCart.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            btnGoToCart.Size = new Size(44, 38);
+            btnGoToCart.Size = new Size(63, 63);
             btnGoToCart.TabIndex = 3;
             btnGoToCart.Click += btnGoToCart_Click;
             // 
@@ -167,13 +168,13 @@
             guna2ImageButton3.ImageOffset = new Point(0, 0);
             guna2ImageButton3.ImageRotate = 0F;
             guna2ImageButton3.ImageSize = new Size(50, 50);
-            guna2ImageButton3.Location = new Point(290, 2);
-            guna2ImageButton3.Margin = new Padding(3, 2, 3, 2);
+            guna2ImageButton3.Location = new Point(414, 3);
+            guna2ImageButton3.Margin = new Padding(4, 3, 4, 3);
             guna2ImageButton3.Name = "guna2ImageButton3";
             guna2ImageButton3.PressedState.Image = (Image)resources.GetObject("resource.Image1");
             guna2ImageButton3.PressedState.ImageSize = new Size(50, 50);
             guna2ImageButton3.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2ImageButton3.Size = new Size(44, 38);
+            guna2ImageButton3.Size = new Size(63, 63);
             guna2ImageButton3.TabIndex = 2;
             // 
             // btnGoToAdd
@@ -184,13 +185,13 @@
             btnGoToAdd.ImageOffset = new Point(0, 0);
             btnGoToAdd.ImageRotate = 0F;
             btnGoToAdd.ImageSize = new Size(50, 50);
-            btnGoToAdd.Location = new Point(27, 2);
-            btnGoToAdd.Margin = new Padding(3, 2, 3, 2);
+            btnGoToAdd.Location = new Point(39, 3);
+            btnGoToAdd.Margin = new Padding(4, 3, 4, 3);
             btnGoToAdd.Name = "btnGoToAdd";
             btnGoToAdd.PressedState.Image = (Image)resources.GetObject("resource.Image2");
             btnGoToAdd.PressedState.ImageSize = new Size(50, 50);
             btnGoToAdd.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            btnGoToAdd.Size = new Size(44, 38);
+            btnGoToAdd.Size = new Size(63, 63);
             btnGoToAdd.TabIndex = 1;
             btnGoToAdd.Click += btnGoToAdd_Click;
             // 
@@ -202,13 +203,13 @@
             btnGoToHome.ImageOffset = new Point(0, 0);
             btnGoToHome.ImageRotate = 0F;
             btnGoToHome.ImageSize = new Size(50, 50);
-            btnGoToHome.Location = new Point(197, 2);
-            btnGoToHome.Margin = new Padding(3, 2, 3, 2);
+            btnGoToHome.Location = new Point(281, 3);
+            btnGoToHome.Margin = new Padding(4, 3, 4, 3);
             btnGoToHome.Name = "btnGoToHome";
             btnGoToHome.PressedState.Image = (Image)resources.GetObject("resource.Image3");
             btnGoToHome.PressedState.ImageSize = new Size(50, 50);
             btnGoToHome.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnGoToHome.Size = new Size(44, 38);
+            btnGoToHome.Size = new Size(63, 63);
             btnGoToHome.TabIndex = 0;
             btnGoToHome.Click += btnGoToHome_Click;
             // 
@@ -217,20 +218,21 @@
             lblTotalCost.AutoSize = true;
             lblTotalCost.BackColor = Color.Transparent;
             lblTotalCost.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTotalCost.Location = new Point(114, 519);
+            lblTotalCost.Location = new Point(163, 865);
+            lblTotalCost.Margin = new Padding(4, 0, 4, 0);
             lblTotalCost.Name = "lblTotalCost";
-            lblTotalCost.Size = new Size(67, 25);
+            lblTotalCost.Size = new Size(97, 37);
             lblTotalCost.TabIndex = 6;
             lblTotalCost.Text = "Cost:";
             lblTotalCost.Click += label2_Click;
             // 
             // OrderPage
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(205, 232, 229);
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(327, 562);
+            ClientSize = new Size(468, 1006);
             Controls.Add(lblTotalCost);
             Controls.Add(guna2Panel2);
             Controls.Add(btnCancelOrder);
@@ -238,8 +240,9 @@
             Controls.Add(listBox1);
             Controls.Add(label1);
             Controls.Add(guna2Panel1);
-            Margin = new Padding(3, 2, 3, 2);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "OrderPage";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Order Page";
             Load += OrderPage_Load;
             guna2Panel2.ResumeLayout(false);
