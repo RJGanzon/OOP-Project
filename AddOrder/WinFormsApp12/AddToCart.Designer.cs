@@ -83,6 +83,12 @@
             label2 = new Label();
             guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
             btnAddToCart = new Guna.UI2.WinForms.Guna2Button();
             btnToppingsMango = new Guna.UI2.WinForms.Guna2ImageButton();
             btnToppingsBiscoffSyrup = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -97,12 +103,6 @@
             btnGoToAdd = new Guna.UI2.WinForms.Guna2ImageButton();
             btnGoToHome = new Guna.UI2.WinForms.Guna2ImageButton();
             txtOrderCost = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
@@ -293,11 +293,11 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Harlow Solid Italic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Harrington", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlDarkDark;
             label1.Location = new Point(99, 50);
             label1.Name = "label1";
-            label1.Size = new Size(162, 35);
+            label1.Size = new Size(178, 32);
             label1.TabIndex = 3;
             label1.Text = "Select a Cup";
             // 
@@ -305,11 +305,11 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Harlow Solid Italic", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Harrington", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ControlDarkDark;
             label2.Location = new Point(125, 249);
             label2.Name = "label2";
-            label2.Size = new Size(124, 35);
+            label2.Size = new Size(137, 32);
             label2.TabIndex = 4;
             label2.Text = "Toppings";
             // 
@@ -354,6 +354,67 @@
             guna2Panel4.ShadowDecoration.Enabled = true;
             guna2Panel4.Size = new Size(350, 456);
             guna2Panel4.TabIndex = 7;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Location = new Point(232, 330);
+            label8.Name = "label8";
+            label8.Size = new Size(86, 17);
+            label8.TabIndex = 24;
+            label8.Text = "Biscoff Syrup";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.Location = new Point(221, 216);
+            label7.Name = "label7";
+            label7.Size = new Size(109, 17);
+            label7.TabIndex = 23;
+            label7.Text = "Crushed Cookies";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(250, 100);
+            label6.Name = "label6";
+            label6.Size = new Size(51, 17);
+            label6.TabIndex = 22;
+            label6.Text = "Mango";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(24, 330);
+            label5.Name = "label5";
+            label5.Size = new Size(89, 17);
+            label5.TabIndex = 21;
+            label5.Text = "Marshmallow";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(25, 216);
+            label4.Name = "label4";
+            label4.Size = new Size(86, 17);
+            label4.TabIndex = 20;
+            label4.Text = "Choco-Syrup";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(35, 100);
+            label3.Name = "label3";
+            label3.Size = new Size(62, 17);
+            label3.TabIndex = 19;
+            label3.Text = "Sprinkles";
+            label3.Click += label3_Click_1;
             // 
             // btnAddToCart
             // 
@@ -568,75 +629,14 @@
             // 
             txtOrderCost.AutoSize = true;
             txtOrderCost.BackColor = Color.Transparent;
-            txtOrderCost.Font = new Font("Harlow Solid Italic", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            txtOrderCost.Font = new Font("Harrington", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             txtOrderCost.ForeColor = SystemColors.ControlDarkDark;
             txtOrderCost.Location = new Point(125, 224);
             txtOrderCost.Name = "txtOrderCost";
-            txtOrderCost.Size = new Size(55, 25);
+            txtOrderCost.Size = new Size(58, 24);
             txtOrderCost.TabIndex = 9;
             txtOrderCost.Text = "Cost:";
             txtOrderCost.Click += label3_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(35, 100);
-            label3.Name = "label3";
-            label3.Size = new Size(62, 17);
-            label3.TabIndex = 19;
-            label3.Text = "Sprinkles";
-            label3.Click += label3_Click_1;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(25, 216);
-            label4.Name = "label4";
-            label4.Size = new Size(86, 17);
-            label4.TabIndex = 20;
-            label4.Text = "Choco-Syrup";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(24, 330);
-            label5.Name = "label5";
-            label5.Size = new Size(89, 17);
-            label5.TabIndex = 21;
-            label5.Text = "Marshmallow";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(250, 100);
-            label6.Name = "label6";
-            label6.Size = new Size(51, 17);
-            label6.TabIndex = 22;
-            label6.Text = "Mango";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(221, 216);
-            label7.Name = "label7";
-            label7.Size = new Size(109, 17);
-            label7.TabIndex = 23;
-            label7.Text = "Crushed Cookies";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI Semibold", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(232, 330);
-            label8.Name = "label8";
-            label8.Size = new Size(86, 17);
-            label8.TabIndex = 24;
-            label8.Text = "Biscoff Syrup";
             // 
             // AddToCart
             // 
