@@ -53,7 +53,7 @@
             label1.Name = "label1";
             label1.Size = new Size(211, 40);
             label1.TabIndex = 1;
-            label1.Text = "Admin Form";
+            label1.Text = "Order History";
             // 
             // AdminForm
             // 

@@ -237,7 +237,7 @@ namespace WinFormsApp12
             this.Hide();
         }
 
-<<<<<<< HEAD
+
         // Helper method to get the current order
         private BaseOrder GetCurrentOrder()
         {
@@ -247,9 +247,13 @@ namespace WinFormsApp12
             }
             return orders[orders.Count - 1];
         }
-=======
-        
->>>>>>> 58ae4e8a3bbae7175908bb8b5587d5ce94e5758f
+
+        private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+            AdminForm OrderHistory = new AdminForm();
+            OrderHistory.Show();
+            this.Hide();
+        }
     }
 
     // Abstract base class for Order

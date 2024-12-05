@@ -38,6 +38,11 @@ namespace WinFormsApp12
             this.Hide();
         }
 
-       
+        private void guna2ImageButton11_Click(object sender, EventArgs e)
+        {
+            AdminForm OrderHistory = new AdminForm();
+            OrderHistory.Show();
+            this.Hide();
+        }
     }
 }
