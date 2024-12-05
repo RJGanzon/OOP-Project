@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
-using System.Diagnostics;
 
 namespace WinFormsApp12
 {
@@ -20,14 +15,6 @@ namespace WinFormsApp12
             InitializeComponent();
         }
 
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        //tracks the username of the person logged in
         public static string LoggedInUser { get; private set; }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,53 +24,58 @@ namespace WinFormsApp12
 
             try
             {
-                using (StreamReader reader = File.OpenText("users.txt"))
+                // Open the file for reading using StreamReader
+                bool userFound = false;
+                string role = "";
+
+                // Open the file using a StreamReader in a using block to ensure proper closing
+                using (StreamReader reader = new StreamReader(accountsPath))
                 {
-                    string lblDisplay = reader.ReadToEnd();
-                    var lines = lblDisplay.Split('\n');
-
-                    var user = lines
-                        .Select(line => line.Split(','))
-                        .FirstOrDefault(u => u[0].Trim() == username && u[1].Trim() == password);
-
-                    if (user != null)
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
                     {
-                        LoggedInUser = username; // Save the logged-in username
-                        string role = user[2].Trim();
-
-                        if (role == "Admin")
+                        var user = line.Split(',');
+                        if (user.Length >= 3 && user[0].Trim() == username && user[1].Trim() == password)
                         {
-                            AdminForm adminForm = new AdminForm();
-                            adminForm.Show();
-                        }
-                        else if (role == "User")
-                        {
-                            this.Hide();
-                            HomePage homePage = new HomePage();
-                            homePage.ShowDialog();
+                            LoggedInUser = username;
+                            role = user[2].Trim();
+                            userFound = true;
+                            break;
                         }
                     }
-                    else
+                }
+
+                if (userFound)
+                {
+                    if (role == "Admin")
                     {
-                        MessageBox.Show("Invalid user or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Hide();
+                        DeleteAcc deleteAcc = new DeleteAcc();
+                        deleteAcc.ShowDialog();
                     }
+                    else if (role == "User")
+                    {
+                        this.Hide();
+                        HomePage homePage = new HomePage();
+                        homePage.ShowDialog();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Invalid user or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
 
         private void btnSignup_Click(object sender, EventArgs e)
         {
-            
-            SignUpForm SignUpForm = new SignUpForm(this);
-            SignUpForm.Show();
+            SignUpForm signUpForm = new SignUpForm(this);
+            signUpForm.Show();
             this.Hide();
-
         }
     }
 }
-

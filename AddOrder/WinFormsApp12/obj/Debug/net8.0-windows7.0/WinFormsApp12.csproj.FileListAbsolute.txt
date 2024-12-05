@@ -118,3 +118,4 @@ C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\n
 C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.pdb
 C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.genruntimeconfig.cache
 C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\ref\WinFormsApp12.dll
+C:\Users\hp\Source\Repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.DeleteAcc.resources

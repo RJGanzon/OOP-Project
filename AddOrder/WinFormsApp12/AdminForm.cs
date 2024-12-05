@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
 
@@ -25,8 +24,7 @@ namespace WinFormsApp12
 
             if (File.Exists(userHistoryFile))
             {
-                List<Order> orders = ReadOrdersFromFile(userHistoryFile);
-                DisplayOrders(orders);
+                DisplayOrderHistory(userHistoryFile);
             }
             else
             {
@@ -34,81 +32,24 @@ namespace WinFormsApp12
             }
         }
 
-        private List<Order> ReadOrdersFromFile(string fileName)
+        private void DisplayOrderHistory(string fileName)
         {
-            List<Order> orders = new List<Order>();
+            listBox1.Items.Clear();
 
-            if (File.Exists(fileName))
+            try
             {
                 using (StreamReader reader = new StreamReader(fileName))
                 {
                     string line;
-                    Order? currentOrder = null;
-
                     while ((line = reader.ReadLine()) != null)
                     {
-                        // If the line is a timestamp (assuming it's a date-time format)
-                        if (DateTime.TryParse(line.Trim(), out _))
-                        {
-                            if (currentOrder != null)
-                            {
-                                orders.Add(currentOrder);
-                            }
-
-                            currentOrder = new Order(new Dictionary<string, float>
-                            {
-                                { "Sprinkles", 0.50F },
-                                { "Chocolate Syrup", 0.75F },
-                                { "Mango", 1.00F },
-                                { "Marshmallow", 0.40F },
-                                { "Biscoff Syrup", 1.20F },
-                                { "Crushed Cookies", 0.60F }
-                            });
-
-                            currentOrder.Timestamp = line.Trim();  // Set the timestamp of the current order
-                        }
-                        else if (line.StartsWith("Cup Size:"))
-                        {
-                            if (currentOrder != null)
-                                currentOrder.CupSize = line.Substring(9).Trim();
-                        }
-                        else if (line.StartsWith("  -"))
-                        {
-                            if (currentOrder != null)
-                            {
-                                string[] parts = line.Substring(4).Split(':');
-                                string toppingName = parts[0].Trim();
-                                int grams = int.Parse(parts[1].Replace("g", "").Trim());
-                                currentOrder.AddTopping(toppingName, grams);
-                            }
-                        }
+                        listBox1.Items.Add(line.Trim());  // Just add each line to the ListBox
                     }
-
-                    // Add the last order after reading all lines
-                    if (currentOrder != null)
-                        orders.Add(currentOrder);
                 }
             }
-
-            return orders;
-        }
-
-        private void DisplayOrders(List<Order> orders)
-        {
-            listBox1.Items.Clear();
-
-            foreach (var order in orders)
+            catch (Exception ex)
             {
-                listBox1.Items.Add(order.Timestamp);
-                listBox1.Items.Add($"  Cup Size: {order.CupSize}");
-                listBox1.Items.Add("  Toppings:");
-
-                foreach (var topping in order.Toppings)
-                {
-                    listBox1.Items.Add($"    - {topping.Key}: {topping.Value}g");
-                }
-
-                listBox1.Items.Add("");  // Empty line between orders
+                MessageBox.Show($"Error loading order history: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

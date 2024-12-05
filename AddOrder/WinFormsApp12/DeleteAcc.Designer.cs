@@ -32,58 +32,62 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DeleteAcc));
             listBox1 = new ListBox();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnDeleteAcc = new Guna.UI2.WinForms.Guna2Button();
             label1 = new Label();
             SuspendLayout();
             // 
             // listBox1
             // 
-            listBox1.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            listBox1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 23;
-            listBox1.Location = new Point(12, 94);
+            listBox1.ItemHeight = 20;
+            listBox1.Location = new Point(10, 70);
+            listBox1.Margin = new Padding(3, 2, 3, 2);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(350, 487);
+            listBox1.Size = new Size(307, 364);
             listBox1.TabIndex = 0;
             // 
-            // guna2Button1
+            // btnDeleteAcc
             // 
-            guna2Button1.BackColor = Color.Transparent;
-            guna2Button1.CustomizableEdges = customizableEdges1;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Red;
-            guna2Button1.Font = new Font("Lucida Bright", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(12, 619);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new Size(355, 56);
-            guna2Button1.TabIndex = 1;
-            guna2Button1.Text = "Delete Account";
+            btnDeleteAcc.BackColor = Color.Transparent;
+            btnDeleteAcc.CustomizableEdges = customizableEdges1;
+            btnDeleteAcc.DisabledState.BorderColor = Color.DarkGray;
+            btnDeleteAcc.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDeleteAcc.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDeleteAcc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDeleteAcc.FillColor = Color.Red;
+            btnDeleteAcc.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDeleteAcc.ForeColor = Color.White;
+            btnDeleteAcc.Location = new Point(10, 464);
+            btnDeleteAcc.Margin = new Padding(3, 2, 3, 2);
+            btnDeleteAcc.Name = "btnDeleteAcc";
+            btnDeleteAcc.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnDeleteAcc.Size = new Size(311, 42);
+            btnDeleteAcc.TabIndex = 1;
+            btnDeleteAcc.Text = "Delete Account";
+            btnDeleteAcc.Click += btnDeleteAcc_Click_1;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Lucida Bright", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 41);
+            label1.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(10, 31);
             label1.Name = "label1";
-            label1.Size = new Size(317, 34);
+            label1.Size = new Size(189, 29);
             label1.TabIndex = 2;
-            label1.Text = "Deletion of Account";
+            label1.Text = "Delete Account";
             // 
             // DeleteAcc
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(374, 805);
+            ClientSize = new Size(327, 562);
             Controls.Add(label1);
-            Controls.Add(guna2Button1);
+            Controls.Add(btnDeleteAcc);
             Controls.Add(listBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "DeleteAcc";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Deletion of Accounts";
@@ -94,7 +98,7 @@
         #endregion
 
         private ListBox listBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnDeleteAcc;
         private Label label1;
     }
 }
