@@ -42,7 +42,6 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(350, 648);
             listBox1.TabIndex = 0;
-            
             // 
             // label1
             // 
@@ -51,7 +50,7 @@
             label1.Font = new Font("Harrington", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(12, 32);
             label1.Name = "label1";
-            label1.Size = new Size(211, 40);
+            label1.Size = new Size(238, 40);
             label1.TabIndex = 1;
             label1.Text = "Order History";
             // 
@@ -64,6 +63,7 @@
             Controls.Add(label1);
             Controls.Add(listBox1);
             Name = "AdminForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminForm";
             ResumeLayout(false);
             PerformLayout();
