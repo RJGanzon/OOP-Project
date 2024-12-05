@@ -1,81 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\",
+  "WorkspaceRootPath": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\deleteacc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\deleteacc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\addtoppingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\addtoppingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\winformsapp12\\addtoppingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\addtoppingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\winformsapp12\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\addtocart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\deleteacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\deleteacc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\deleteacc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\orderhistory.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderhistory.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\addtocart.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\addtocart.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\addtocart.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\hp\\source\\repos\\rjganzon\\oop-project\\addorder\\winformsapp12\\orderpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|c:\\users\\andrei gumiran\\documents\\github\\oop-project\\addorder\\winformsapp12\\orderpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{809E1D45-D05F-4651-BFD3-99C632993CB0}|WinFormsApp12\\WinFormsApp12.csproj|solutionrelative:winformsapp12\\orderpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -86,16 +86,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -105,56 +97,73 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\Form2.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs [Design]",
+              "RelativeToolTip": "WinFormsApp12\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:09:58.327Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DeleteAcc.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs",
+              "Title": "DeleteAcc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\DeleteAcc.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs",
-              "RelativeToolTip": "WinFormsApp12\\DeleteAcc.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAiwGEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs [Design]",
+              "RelativeToolTip": "WinFormsApp12\\DeleteAcc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:06:24.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\Form2.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs",
-              "RelativeToolTip": "WinFormsApp12\\Form2.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:19:49.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:36:08.761Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddToCart.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\AddToCart.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs",
-              "RelativeToolTip": "WinFormsApp12\\AddToCart.cs",
-              "ViewState": "AgIAACsBAAAAAAAAAAAiwD8BAAAAAAAAAAAAAA==",
+              "Title": "addToppingsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\addToppingsForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\addToppingsForm.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\addToppingsForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp12\\addToppingsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T13:25:57.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:09:55.918Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddToCart.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\AddToCart.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs [Design]",
+              "RelativeToolTip": "WinFormsApp12\\AddToCart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:50:47.809Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AdminForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\AdminForm.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AdminForm.cs",
-              "RelativeToolTip": "WinFormsApp12\\AdminForm.cs",
+              "Title": "OrderHistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderHistory.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\OrderHistory.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderHistory.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp12\\OrderHistory.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:23:02.491Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderHistory.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\OrderHistory.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderHistory.cs*",
+              "RelativeToolTip": "WinFormsApp12\\OrderHistory.cs*",
               "ViewState": "AgIAACQAAAAAAAAAAAAiwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T10:20:38.216Z",
@@ -162,11 +171,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "AddToCart.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\AddToCart.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs",
+              "RelativeToolTip": "WinFormsApp12\\AddToCart.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAQwIkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:25:57.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "OrderPage.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\OrderPage.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs",
               "RelativeToolTip": "WinFormsApp12\\OrderPage.cs",
               "ViewState": "AgIAAP8AAAAAAAAAAAAiwBMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,11 +201,50 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteAcc.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\DeleteAcc.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs",
+              "RelativeToolTip": "WinFormsApp12\\DeleteAcc.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:06:24.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\HomePage.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs",
+              "RelativeToolTip": "WinFormsApp12\\HomePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:37:31.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteAcc.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\DeleteAcc.Designer.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.Designer.cs",
+              "RelativeToolTip": "WinFormsApp12\\DeleteAcc.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:36:55.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "SignUpForm.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\SignUpForm.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\SignUpForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\SignUpForm.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\SignUpForm.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\SignUpForm.cs",
               "RelativeToolTip": "WinFormsApp12\\SignUpForm.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAtwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,48 +252,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeleteAcc.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\DeleteAcc.Designer.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.Designer.cs",
-              "RelativeToolTip": "WinFormsApp12\\DeleteAcc.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwCAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\Form2.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs",
+              "RelativeToolTip": "WinFormsApp12\\Form2.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:36:55.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\HomePage.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs",
-              "RelativeToolTip": "WinFormsApp12\\HomePage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:37:31.535Z",
+              "WhenOpened": "2024-11-30T09:19:49.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdminForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AdminForm.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\AdminForm.Designer.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AdminForm.Designer.cs",
-              "RelativeToolTip": "WinFormsApp12\\AdminForm.Designer.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwDcAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "OrderHistory.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderHistory.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp12\\OrderHistory.Designer.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderHistory.Designer.cs*",
+              "RelativeToolTip": "WinFormsApp12\\OrderHistory.Designer.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:24:46.736Z"
+              "WhenOpened": "2024-12-05T10:24:46.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\Program.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\Program.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\Program.cs",
               "RelativeToolTip": "WinFormsApp12\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,21 +292,22 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "AddToCart.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\AddToCart.Designer.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.Designer.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.Designer.cs",
               "RelativeToolTip": "WinFormsApp12\\AddToCart.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAUwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:18:04.123Z"
+              "WhenOpened": "2024-12-04T12:18:04.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "OrderPage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\OrderPage.Designer.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.Designer.cs",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.Designer.cs",
               "RelativeToolTip": "WinFormsApp12\\OrderPage.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,84 +315,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteAcc.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\DeleteAcc.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\DeleteAcc.cs [Design]",
-              "RelativeToolTip": "WinFormsApp12\\DeleteAcc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:36:08.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\HomePage.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs [Design]",
+              "ToolTip": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\HomePage.cs [Design]",
               "RelativeToolTip": "WinFormsApp12\\HomePage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:37:20.824Z"
+              "WhenOpened": "2024-12-05T13:10:06.009Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\Form2.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\Form2.cs [Design]",
-              "RelativeToolTip": "WinFormsApp12\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:09:58.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "addToppingsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\addToppingsForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\addToppingsForm.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\addToppingsForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp12\\addToppingsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:09:55.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "OrderPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei Gumiran\\Documents\\GitHub\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs",
               "RelativeDocumentMoniker": "WinFormsApp12\\OrderPage.cs",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs [Design]",
-              "RelativeToolTip": "WinFormsApp12\\OrderPage.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\OrderPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T04:50:00.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddToCart.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\AddToCart.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AddToCart.cs [Design]",
-              "RelativeToolTip": "WinFormsApp12\\AddToCart.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:50:47.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AdminForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp12\\AdminForm.cs",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\RJGanzon\\OOP-Project\\AddOrder\\WinFormsApp12\\AdminForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp12\\AdminForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:23:02.491Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

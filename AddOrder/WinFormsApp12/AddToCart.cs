@@ -250,7 +250,7 @@ namespace WinFormsApp12
 
         private void guna2ImageButton3_Click(object sender, EventArgs e)
         {
-            AdminForm OrderHistory = new AdminForm();
+            OrderHistory OrderHistory = new OrderHistory();
             OrderHistory.Show();
             this.Hide();
         }

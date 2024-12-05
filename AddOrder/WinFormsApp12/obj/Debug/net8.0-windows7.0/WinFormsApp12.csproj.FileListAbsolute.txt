@@ -35,7 +35,6 @@ C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\bin\
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\bin\Debug\net8.0-windows7.0\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.csproj.AssemblyReference.cache
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.addToppingsForm.resources
-C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.AdminForm.resources
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.Form2.resources
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.OrderPage.resources
 C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.Properties.Resources.resources
@@ -119,3 +118,5 @@ C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\n
 C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.genruntimeconfig.cache
 C:\Users\hp\source\repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\ref\WinFormsApp12.dll
 C:\Users\hp\Source\Repos\RJGanzon\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.DeleteAcc.resources
+C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.DeleteAcc.resources
+C:\Users\Andrei Gumiran\Documents\GitHub\OOP-Project\AddOrder\WinFormsApp12\obj\Debug\net8.0-windows7.0\WinFormsApp12.OrderHistory.resources
